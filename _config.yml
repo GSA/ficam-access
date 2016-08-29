@@ -1,0 +1,103 @@
+# Site settings
+title: Manage Access Control Playbook
+name: Manage Access Control Playbook
+email: icam@gsa.gov
+author:
+    name: FICAM
+description: Access Control Guidance
+baseurl: '/ficam-access'
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  lachellel
+highlighter: rouge
+branch: master
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /ficam-access/img/logo.png
+logoalt: Federal Identity Credential and Access Management
+
+ficam_playbooks_url: /ficam-guides/
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+repos:
+- name: program-guides
+  description: FICAM Playbook - Manage Access Control
+  url: https://github.com/gsa/ficam-access
+
+# Build settings
+markdown: kramdown
+
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+navigation:
+- text: Home
+  url: index.html
+  internal: true
+  coll: false
+- text: Step 1 - Establish an Access Governance Structure
+  url: 1_step-1
+  internal: true
+  coll: false
+- text: Step 2 - Conduct a Policy Analysis
+  url: 2_step-2
+  internal: true
+  coll: false
+- text: Step 3 - Define Access Control Requirements
+  url: 3_step-3
+  internal: true
+  coll: false
+- text: Step 4 - Identify Protected Resources
+  url: 4_step-4
+  internal: true
+  coll: false
+- text: Step 5 - Conduct a Risk Assessment
+  url: 5_step-5
+  internal: true
+  coll: false
+- text: Access Management Framework
+  url: framework
+  internal: true
+  coll: false
+- text: Step 6 - Choose Your Access Control Model
+  url: 6_step-6
+  internal: true
+  coll: false
+- text: Step 7 - Establish the Data Management Life Cycle
+  url: 7_step-7
+  internal: true
+  coll: false
+- text: Step 8 - Establish the Privilege Management Life Cycle
+  url: 8_step-8
+  internal: true
+  coll: false
+- text: Step 9 - Establish the Policy Administration Life Cycle
+  url: 9_step-9
+  internal: true
+  coll: false
+- text: Step 10 - Manage the System Development Life Cycle
+  url: 10_step-10
+  internal: true
+  coll: false
+- text: Contribute
+  url: contribute
+  internal: true
+  coll: false
+include:
+- _stylesheets
+- _javascript
+
+
+
+# Custom site configuration
+lang: en
