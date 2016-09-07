@@ -5,11 +5,18 @@ permalink: /contribute/
 ---
 --------------------------------------------------------------
 
-This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Manage Access Control Playbook. 
+This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Access Management Playbook
+
+We encourage you to read our [LICENSE](LICENSE.md) and our [README](README.md), which exist within this repository.
+
+* You can visit the GitHub repository [here](https://github.com/GSA/ficam-access). 
+* If you have any questions, open an issue under the 'Issues' tab. 
+* Opening issues or adding content does require the creation of a GitHub account.
 
 ### How to Contribute
 
-Thank you for considering contributing to the development of open and transparent FICAM guidance documents. To contribute to this site, please leverage the information provided below, and visit the GitHub repository which houses the source files for the site and exists [here]({{site.github.repository_url}}/tree/{{site.branch}}/). If you have any questions, feel free to open an issue under the 'Issues' tab of the repository. Please note that opening issues or adding content to the repository will require the creation of a GitHub account.
+Thank you for considering contributing to the development of open and transparent 
+FICAM guidance documents. To contribute to this site, please leverage the information provided below, and visit the GitHub repository which houses the source files for the site and exists [here](https://github.com/GSA/ficam-access). If you have any questions, feel free to open an issue under the 'Issues' tab of the repository. Please note that opening issues or adding content to the repository will require the creation of a GitHub account.
 
 GitHub issues are the primary way of sharing information and discussing this site with the broader community. For example, they should be used for:
 
@@ -36,13 +43,11 @@ If you have identified an open issue suggesting a new topic for the site and wou
 * When your file is ready to be added to the repository, enter a title and quick description of your new page in the 'Commit new file' box at the bottom of the 'New file' page. 
 * Within this box are two radio button options. Be sure to select the 'Create a new branch for this commit and start a pull request' radio button, so that your content can go through the proper review process before going live on the Playbook site.
 * Click the 'Propose new file' button. This will route you to the 'Open a pull request' page.
-* Within the information box on the pull request page, create a title that reflects the nature of the content added, as well as a reference to the issue number that was opened stating the need for this topic, such as 'Issue #39 - Added more information about the Access Management Framework', entering any other relevant notes within the comment field.
+* Within the information box on the pull request page, create a title that reflects the nature of the content added, as well as a reference to the issue number that was opened stating the need for this topic, such as 'Issue #39 - Added more information about Access Management Framework', entering any other relevant notes within the comment field.
 * Click the 'Create pull request' button. This will send a notification to the site administrators that a new page has been added, which they can then review.
 * Be sure to follow the progress of the issue that you opened stating what content you intended to add! This will allow you to see if others have comments or contributing information for the process, or if the site admin has responded with an updated status on your new page.
 
 If at any point you have a question during the contribution process, do not hesitate to open an issue requesting clarification.
-
-We encourage you to read our [LICENSE]({{site.baseurl}}/license/) and our [README]({{site.github.repository_url}}/tree/{{site.branch}}/README.md), which exist within this repository.  
 
 ###  General Practices
 
