@@ -20,13 +20,20 @@ $(function() {
 After you've finished the risk analysis, presented it to the agency's Facility 
 Security Committee (FSC), and the FSC 
 has agreed on each location's assumed risks and countermeasures, you are ready
- to create a statement of work (SOW) for upgrades to the integrated security
+ to create a Statement of Work (SOW) for upgrades to the integrated security
 platform in use at those locations.  Undoubtedly, you will be procuring PIV 
 readers, a system to validate PIV cards when they are presented at the readers,
 a physical security system (PACS) upgrade or possibly replace the PACS with
 an entirely new brand.
 
-Two guides to creating a SOW can be found at [DHS](https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf) and 
+The statement of work should include the material in GSA's [PKI in E-PACS Procurement Guidance](https://www.idmanagement.gov/IDM/servlet/fileField?id=0BEt0000000007z). 
+This document provides language for Enterprise-level physical access control (E-PACS)
+procurements documents such as Requests for Quotes (RFQs) and Statements of Work.
+It includes all of the policies and normative guidance that requires agencies
+procuring new systems to ensure that they implement the FIPS 201 authentication 
+methods designed for use with E-PACS.
+
+Two guides for creating a SOW can be found at [DHS](https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf) and 
 [GSA](http://www.gsa.gov/portal/getMediaData?mediaId=206995).  You will need to 
 modify these for security systems integration rather than strictly IT, but the
 basic frameworks are in place for most of your project.
