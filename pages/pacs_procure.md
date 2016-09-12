@@ -32,19 +32,19 @@ http://www.gsa.gov/portal/getMediaData?mediaId=206995
 ###Looking for Approved Systems
 ####Background
 Physical access control systems have not advanced technologically at anywhere 
-near the speed that other types of automated systems and equipment have.  
-Despite this, PACS vendors remain very protective of their technology.  You'll 
+near the speed that other types of automated systems and equipment have.Despite 
+this, PACS vendors remain very protective of their technology.  You'll 
 not find much commonality or compatibility from one vendor's system to the next.
-  FIPS 201 partially addressed this by forcing interoperability at the card-reader
-   level, but beyond that, every PACS uses a proprietary database schema, 
-   proprietary head-end-to-panel network protocols, and sometimes, proprietary 
-   panel-to-reader protocols.  There are a few exceptions.  This didn't happen 
-   without the Government stepping in and strongly suggesting that a 
-   panel-to-reader protocol should be developed so that the Government could be 
-   free to mix and match readers with the rest of the PACS.  Open Supervised 
-   Device Protocol (OSDP), already a fledgling standard, was expanded to support 
-   the larger commands and responses used with PIV authentication, and is now 
-   found on a majority of PIV readers.  Later, we will discuss this feature.
+FIPS 201 partially addressed this by forcing interoperability at the card-reader
+level, but beyond that, every PACS uses a proprietary database schema, 
+proprietary head-end-to-panel network protocols, and sometimes, proprietary 
+panel-to-reader protocols.  There are a few exceptions.  This didn't happen 
+without the Government stepping in and strongly suggesting that a 
+panel-to-reader protocol should be developed so that the Government could be 
+free to mix and match readers with the rest of the PACS.  Open Supervised 
+Device Protocol (OSDP), already a fledgling standard, was expanded to support 
+the larger commands and responses used with PIV authentication, and is now 
+found on a majority of PIV readers.  Later, we will discuss this feature.
 ###GSA FIPS 201 Approved Products List (APL)
 To ensure that PACS and LACS products meet FIPS 201 security, usability, and 
 interoperability standards set by ISO-IEC, NIST, ANSI, UL and GSA, GSA 
