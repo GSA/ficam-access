@@ -173,7 +173,7 @@ quickly see which have been tested for compatibility with each other.   This hel
  supported with your selected configuration.  
  
 There are multiple ways to search for products.  If reader factors are a primary 
-driver for your project, then select PACS PIV Readers from the Filter by Category 
+driver for your project, then select _PACS PIV Readers_ from the _Filter by Category_
 drop-down menu.  Immediately, a list of all PACS PIV Readers will be displayed.  
 Sort the list by the Status column so that only the approved readers are shown. 
 Note that when you search for PACS PIV readers, the number of factors is not 
