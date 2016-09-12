@@ -27,7 +27,9 @@ a physical security system (PACS) upgrade or possibly replace the PACS with
 an entirely new brand.
 
 Two guides to creating a SOW can be found at [DHS](https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf) and 
-[GSA](http://www.gsa.gov/portal/getMediaData?mediaId=206995).
+[GSA](http://www.gsa.gov/portal/getMediaData?mediaId=206995).  You will need to 
+modify these for security systems integration rather than strictly IT, but the
+basic frameworks are in place for most of your project.
 
 ###Looking for Approved Systems
 ####Background
