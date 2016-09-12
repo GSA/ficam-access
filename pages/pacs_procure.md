@@ -159,7 +159,7 @@ example might be an entrance to a building where the lobby is manned during
 normal working hours, so a single factor is sufficient.  After hours, the lobby 
 is unmanned, so two factors are required.  Some systems enable you to configure 
 the same reader to change from one to two factors after hours and and back to one 
-factor during working hours.  The ideal system can allows you to configure readers
+factor during working hours.  The ideal system allows you to configure readers
 or groups of readers to switch authentication modes based on a time schedule with 
 absolutely no user intervention.
 
