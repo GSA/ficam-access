@@ -41,7 +41,7 @@ basic frameworks are in place for most of your project.
 ###Looking for Approved Systems
 ####Background
 Physical access control systems have not advanced technologically at anywhere 
-near the speed that other types of automated systems and equipment have.Despite 
+near the speed that other types of automated systems and equipment have.  Despite 
 this, PACS vendors remain very protective of their technology.  You'll 
 not find much commonality or compatibility from one vendor's system to the next.
 FIPS 201 partially addressed this by forcing interoperability at the card-reader
@@ -254,16 +254,33 @@ this reader, there are several other end-to-end solutions, so this is where
 you work with your systems integrator to determine the best overall solution 
 for your facility or agency.  
 
-You can now begin to determine budgetary pricing by using GSAAdvantage.com.  
+You can now begin to determine budgetary pricing by using GSAAdvantage.gov.  
 Labor and materials for installation are not going to be able to determine 
-without working with an integrator, so GSAAdvantage.com is really only good for 
+without working with an integrator, so GSAAdvantage.gov is really only good for 
 getting budgetary pricing for software and hardware for APL items. 
 ###GSA Advantage
-Here's how to use GSAAdvantage.com to obtain pricing for software and hardware.
-Click _Shop by Category_.
-On the _Services_ column, select _Security and Law Enforcement_.
-Under _Categories_, select the link to _Security Systems Integration and Design 
-Systems_.
+Here's how to use GSAAdvantage.gov to obtain pricing for software and hardware..
+
+####Point to the Web Site
+Point your browser to https://www.gsaadvantage.gov.  When the site is displayed,
+Click the little down-arrow on the _Shop by Category_ button.  
+
+![](../img/gsaadvantage-step1.png)..
+
+A two-column menu will be displayed.  On the _Services_ column, select _Security and Law Enforcement_.
+
+![](../img/gsaadvantage-step2.png)..
+
+Next page that displays has a list of categories in the left margin.  Under _Categories_, select the link to _Security Systems Integration and Design 
+Systems_.  
+
+![](../img/gsaadvantage-step3.png)..
+
+The result is a list of systems integrators with GSA Schedule 70 or 84 who have
+listed themselves with GSAAdvantage.  Not every integrator carries every part,
+so you will need to look for the part first.  This will give you an idea of cost
+and availability.
+
 Search for the part number of the component found on the APL configuration form.
 Either the product won't be found, or one or more System Integrators will offer
  the product.
