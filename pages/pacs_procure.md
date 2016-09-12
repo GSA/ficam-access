@@ -17,18 +17,18 @@ $(function() {
 -----------------------------------------------------
 ##PACS Procurement
 ###The Statement of Work
-After you've finished the risk analysis, presented it to the FSC, and the FSC 
+After you've finished the risk analysis, presented it to the agency's Facility 
+Security Committee (FSC), and the FSC 
 has agreed on each location's assumed risks and countermeasures, you are ready
  to create a statement of work (SOW) for upgrades to the integrated security
 platform in use at those locations.  Undoubtedly, you will be procuring PIV 
 readers, a system to validate PIV cards when they are presented at the readers,
-a PACS upgrade or possibly a new PACS entirely.
-<!--- TODO: Finish this section on creating a Statement of Work (SOW). -->
-Reference 1: DHS guidance:
-https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf  
+a physical security system (PACS) upgrade or possibly replace the PACS with
+an entirely new brand.
 
-Reference 2: GSA guidance:
-http://www.gsa.gov/portal/getMediaData?mediaId=206995  
+Two guides to creating a SOW can be found at [DHS](https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf) and 
+[GSA](http://www.gsa.gov/portal/getMediaData?mediaId=206995).
+
 ###Looking for Approved Systems
 ####Background
 Physical access control systems have not advanced technologically at anywhere 
@@ -38,7 +38,9 @@ not find much commonality or compatibility from one vendor's system to the next.
 FIPS 201 partially addressed this by forcing interoperability at the card-reader
 level, but beyond that, every PACS uses a proprietary database schema, 
 proprietary head-end-to-panel network protocols, and sometimes, proprietary 
-panel-to-reader protocols.  There are a few exceptions.  This didn't happen 
+panel-to-reader protocols.  
+
+There are a few exceptions.  This didn't happen 
 without the Government stepping in and strongly suggesting that a 
 panel-to-reader protocol should be developed so that the Government could be 
 free to mix and match readers with the rest of the PACS.  Open Supervised 
@@ -47,8 +49,14 @@ the larger commands and responses used with PIV authentication, and is now
 found on a majority of PIV readers.  Later, we will discuss this feature.
 ###GSA FIPS 201 Approved Products List (APL)
 To ensure that PACS and LACS products meet FIPS 201 security, usability, and 
-interoperability standards set by ISO-IEC, NIST, ANSI, UL and GSA, GSA 
-established a FIPS 201 evaluation program.  Vendors submit end-to-end PACS solutions 
+interoperability standards set by International Organization for Standardization
+ and International Electrotechnical Commission (ISO-IEC), 
+National Institute of Standards and Technology (NIST), American National Standards
+Institute (ANSI), Underwriters Laboratories (UL) and General Services Administration 
+(GSA), GSA 
+established a FIPS 201 Evaluation Program (FIPS 201 EP).  
+
+Vendors submit end-to-end PACS solutions 
 consisting of the PACS, a PIV card validation system, and one or more readers to the 
 Evaluation Program test lab managed by the GSA.  Not only are products tested for 
 compliance with the many standards issued by ISO-IEC, ANSI, UL, and GSA, but they 
@@ -139,8 +147,8 @@ Many PIV readers support OSDP.  Currently, using OSDP protocol to perform PIV-AU
 and CAK-AUTH is still in its infancy. 
 <!--- TODO: We should explain that OSDP 
 introduces processing overhead due to the message lengths, and that different 
-vendors have taken different approaches to handle this, but they may not be 
-interoperable with other vendors' productrs. --> 
+vendors have taken vendor-specific approaches to handle this, but they may not be 
+interoperable with other vendors' products. --> 
 Most vendors supporting OSDP 
 provide both the panel and the reader, thereby ensuring that the two work together.  This is 
 what is tested and approved in the GSA EP lab.  In the Government's eyes though, 
@@ -250,4 +258,4 @@ Systems_.
 Search for the part number of the component found on the APL configuration form.
 Either the product won't be found, or one or more System Integrators will offer
  the product.
-TODO: Show a working example of an APL-listed part.
+<!--- TODO: Show a working example of an APL-listed part. -->
