@@ -56,7 +56,7 @@ are also tested for compatibility amongst themselves.  This ensures that when an
 agency procures a GSA-approved end-to-end solution, it is guaranteed to be 
 compatible.  Vendors that update a listed product must submit an upgrade application, 
 and the end-to-end solution is re-tested.
-How to Find Approved Products
+####How to Find Approved Products
 Point your web browser to http://IDManagement.gov.
 Scroll down and select _View Vendor Products and Services_ from the _I Want To_
  menu.
@@ -251,4 +251,3 @@ Search for the part number of the component found on the APL configuration form.
 Either the product won't be found, or one or more System Integrators will offer
  the product.
 TODO: Show a working example of an APL-listed part.
-
