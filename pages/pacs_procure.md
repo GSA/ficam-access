@@ -19,15 +19,16 @@ $(function() {
 ###The Statement of Work
 After you've finished the risk analysis, presented it to the FSC, and the FSC 
 has agreed on each location's assumed risks and countermeasures, you are ready
- to create a statement of work (SOW) for any upgrades to the integrated security
-  platform in use at those locations.  Undoubtedly, you will be procuring PIV 
-  readers, a system to validate PIV cards when they are presented at the readers,
-   a PACS upgrade or possibly a new PACS entirely.
+ to create a statement of work (SOW) for upgrades to the integrated security
+platform in use at those locations.  Undoubtedly, you will be procuring PIV 
+readers, a system to validate PIV cards when they are presented at the readers,
+a PACS upgrade or possibly a new PACS entirely.
 <!--- TODO: Finish this section on creating a Statement of Work (SOW). -->
 Reference 1: DHS guidance:
-https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf
+https://www.dhs.gov/sites/default/files/publications/isc-planning-managing-physical-security-resources-dec-2015-508.pdf  
+
 Reference 2: GSA guidance:
-http://www.gsa.gov/portal/getMediaData?mediaId=206995
+http://www.gsa.gov/portal/getMediaData?mediaId=206995  
 ###Looking for Approved Systems
 ####Background
 Physical access control systems have not advanced technologically at anywhere 
@@ -71,8 +72,8 @@ before we start searching for products.
 ####PACS Topology 13.01
 The first PACS topology approved by the GSA FIPS 201 EP was named 13.01. It 
 consists of an implementation of a PACS Infrastructure and a PACS Validation 
-System.
-The PACS Infrastructure category typically includes these subcomponents:
+System. The PACS Infrastructure category typically includes these subcomponents:  
+
 * Database and Server
 * Field Panel (Controller)
 * Head-end Service (PACS application & server)
@@ -82,7 +83,8 @@ The PACS Infrastructure category typically includes these subcomponents:
 * Transparent USB Card Reader/Writer
 * Workstation  
 
-The PACS Validation System category includes a subset of these subcomponents:
+The PACS Validation System category includes a subset of these subcomponents:  
+
 * Caching Status Proxy Server
 * Cryptographic Module
 * Int. USB Card Reader/Writer & Fingerprint Capture
@@ -97,26 +99,30 @@ The PACS Validation System category includes a subset of these subcomponents:
 * Transparent USB Card Reader/Writer
 
 The PACS Validation System is all about electronically authenticating cards and
- cardholders.  This is the FICAM portion of any FICAM PACS.
+ cardholders.  This is the FICAM portion of any FICAM-based PACS.
 
 ####PACS Topology 13.02
 The PACS Infrastructure and PACS Validation System can be combined into a single 
-seamless system which is called a PACS and Validation Infrastructure (PVI).   
-This topology is designated a PACS Topology 13.02.  The distinguishing features 
+seamless system which is called a PACS and Validation Infrastructure (PVI). 
+This topology is designated as PACS Topology 13.02.  The distinguishing feature
 of a 13.02 PACS topology is that it is engineered and manufactured by a single 
 OEM.  This can make it simpler and less expensive to purchase and install.
-The PIV Reader category has 3 subcomponents:
+
+#####PIV Readers
+
+The PIV Reader category has 3 subcomponents:  
+
 * PIV Reader Single Factor
 * PIV Reader Dual Factor
 * PIV Reader Three Factor  
 
-Single factor PIV readers are used to perform CAK-AUTH, which ensures that the 
+_Single factor_ PIV readers are used to perform CAK-AUTH, which ensures that the 
 PIV card presented by the bearer is the same card that was registered in the 
-PACS and the card has not been revoked.  A single factor PIV reader does not 
-help to identify the person presenting the card.  Single factor PIV readers are 
+PACS and the card has not been revoked.  A single factor PIV reader _does not_ 
+help to identify the person presenting the card.  It simply identifies the card itself.  Single factor PIV readers are 
 almost always contactless readers.
 
-Dual factor PIV readers are used to perform PKI-AUTH, which ensures that the 
+_Dual factor_ PIV readers are used to perform PKI-AUTH, which ensures that the 
 PIV card presented by the bearer is the same card that was registered in the 
 PACS and, because the second factor is a PIN, helps to identify the bearer.  
 
@@ -124,20 +130,23 @@ Note that someone could give their PIN to another person, who could then gain ac
 using the card and PIN.  Dual factor readers use a contact slot to insert the card, 
 and a PIN pad to enter the PIN.
 
-Three factor PIV readers perform PKI-AUTH like dual factor readers, but also 
+_Three factor_ PIV readers perform PKI-AUTH like dual factor readers, but also 
 require the bearer to present a biometric sample for comparison with the reference 
 biometric template stored on the PIV card.  This is the strongest form of 
-identification.
+identification.  
 ####OSDP
 Many PIV readers support OSDP.  Currently, using OSDP protocol to perform PIV-AUTH 
-and CAK-AUTH is still in its infancy.  Most vendors supporting OSDP provide both 
-the panel and the reader, thereby ensuring that the two work together.  This is 
-what would be tested and approved in the GSA EP lab.  In the Government's eyes, 
-the end state is when a PIV reader from Manufacturer A can be connected to an 
-access control panel from Manufacturer B.  Of course, the two products will 
-still be tested by the GSA EP, but the goal is for the OSDP standard so 
+and CAK-AUTH is still in its infancy. <!--- TODO: We should explain that OSDP 
+introduces processing overhead due to the message lengths, and that different 
+vendors have taken different approaches to handle this, but they may not be 
+interoperable with other vendors' productrs. --> Most vendors supporting OSDP 
+provide both the panel and the reader, thereby ensuring that the two work together.  This is 
+what would is tested and approved in the GSA EP lab.  In the Government's eyes though, 
+the end state is when any approved PIV reader can be connected to 
+any PACS Infrastructure.  Of course, all of these combinations of products will 
+need to be tested by the GSA EP, but the goal is for the OSDP standard to become so 
 well-defined, that the engineering effort to integrate another vendor's component 
-will be like plugging in an electrical cord.  It always works because the NEMA 
+will be like plugging in an electrical cord; it always works because the NEMA 
 connector standards are rock-solid and all of the vendors interpret the 
 specifications the same way.  
 
@@ -147,7 +156,11 @@ which allow you to vary the number of factors based on your security policy.  An
 example might be an entrance to a building where the lobby is manned during 
 normal working hours, so a single factor is sufficient.  After hours, the lobby 
 is unmanned, so two factors are required.  Some systems enable you to configure 
-the reader to change to two factors after hours and one factor during working hours.
+the same reader to change from one to two factors after hours and and back to one 
+factor during working hours.  The ideal system can allows you to configure readers
+or groups of readers to switch authentication modes based on a time schedule with 
+absolutely no user intervention.
+
 At this point, you will have determined your needs for the required numbers of 
 factors at each controlled access point, so it's time to look at what's available.  
 
@@ -173,10 +186,10 @@ required to access the biometric).  Bio readers almost always support PKI-AUTH
 
 To see what systems a particular reader has been tested and approved to work with, 
 click the (+) icon in the leftmost column of the table.  For example, find 
-ACME Contact/Contactless Keypad Reader (APL #99999).   Note the part number 
+_ACME Contact/Contactless Keypad Reader (APL #99999)_.   Note the part number 
 shown inside the red box.  
-TODO: Create image link of reader list with ACME Contact/Contactless Keypad 
-Reader highlighted with a green box.   Place a red box around the part number.
+TODO: Create image link of reader list with _ACME Contact/Contactless Keypad 
+Reader_ highlighted with a green box.   Place a red box around the part number.
  
 <!--- TODO: Show the matrix of PACS Infrastructure and PACS Validation Systems that 
 work with this reader. -->
@@ -203,9 +216,9 @@ part numbers in a red box.-->
 <br/><br/><br/>
 </pre>
 Navigate back to the PIV Reader list and find APL 99999 again.  Find the line 
-containing the Secure My Site (APL #99998) and select the CryptoWhiz PACS 
-Validation System (APL #99997).  When the CryptoWhiz PACS Validation System for
- Secure My Site is displayed, click on the [+] Product Configuration icon to 
+containing the _Secure My Site (APL #99998)_ and select the _CryptoWhiz PACS 
+Validation System (APL #99997)_.  When the _CryptoWhiz PACS Validation System for
+ Secure My Site_ is displayed, click on the _[+] Product Configuration_ icon to 
  reveal the part numbers.
 <!--- TODO: Create a screen capture to show the component breakout and circle 
 the part numbers in a red box.-->
@@ -213,11 +226,12 @@ the part numbers in a red box.-->
 <br/><br/><br/>
 </pre>
 You have found all of the OEM part numbers that have been approved for an 
-end-to-end solution for a dual-factor ACME Contact/Contactless Keypad Reader 
-used with a Secure My Site PACS and the CryptoWhiz Validation System.  With 
+end-to-end solution for a dual-factor _ACME Contact/Contactless Keypad Reader_ 
+used with a _Secure My Site PACS_ and the _CryptoWhiz Validation System_.  With 
 this reader, there are several other end-to-end solutions, so this is where 
 you work with your systems integrator to determine the best overall solution 
-for your facility or agency.
+for your facility or agency.  
+
 You can now begin to determine budgetary pricing by using GSAAdvantage.com.  
 Labor and materials for installation are not going to be able to determine 
 without working with an integrator, so GSAAdvantage.com is really only good for 
