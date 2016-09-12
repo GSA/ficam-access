@@ -58,9 +58,9 @@ compatible.  Vendors that update a listed product must submit an upgrade applica
 and the end-to-end solution is re-tested.
 How to Find Approved Products
 Point your web browser to http://IDManagement.gov.
-Scroll down and select "View Vendor Products and Services" from the "I Want To"
+Scroll down and select _View Vendor Products and Services_ from the _I Want To_
  menu.
-There are several categories in the Filter by Category drop-down, but the most 
+There are several categories in the Filter by _Category_ drop-down, but the most 
 relevant are:
 *  PACS Infrastructure
 *  PACS Validation System
@@ -136,12 +136,14 @@ biometric template stored on the PIV card.  This is the strongest form of
 identification.  
 ####OSDP
 Many PIV readers support OSDP.  Currently, using OSDP protocol to perform PIV-AUTH 
-and CAK-AUTH is still in its infancy. <!--- TODO: We should explain that OSDP 
+and CAK-AUTH is still in its infancy. 
+<!--- TODO: We should explain that OSDP 
 introduces processing overhead due to the message lengths, and that different 
 vendors have taken different approaches to handle this, but they may not be 
-interoperable with other vendors' productrs. --> Most vendors supporting OSDP 
+interoperable with other vendors' productrs. --> 
+Most vendors supporting OSDP 
 provide both the panel and the reader, thereby ensuring that the two work together.  This is 
-what would is tested and approved in the GSA EP lab.  In the Government's eyes though, 
+what is tested and approved in the GSA EP lab.  In the Government's eyes though, 
 the end state is when any approved PIV reader can be connected to 
 any PACS Infrastructure.  Of course, all of these combinations of products will 
 need to be tested by the GSA EP, but the goal is for the OSDP standard to become so 
@@ -196,11 +198,14 @@ work with this reader. -->
 <pre>
 <br/><br/><br/>
 </pre>
-Now, click the (+) icon.  Beneath the reader, a table will be displayed showing the approved PACS 
-Infrastructures, PACS Validation Systems that this reader will work with, as 
-well as the reader itself.  The APL numbers are shown for each category item in a row.  You can now begin to look at PACS Infrastructures or PACS Validation Infrastructures to get a list of part numbers.
+Now, click the (+) icon.  Beneath the reader, a table will be displayed showing 
+the approved PACS Infrastructures, PACS Validation Systems that this reader will 
+work with, as well as the reader itself.  The APL numbers are shown for each 
+category item in a row.  You can now begin to look at PACS Infrastructures or PACS 
+Validation Infrastructures to get a list of part numbers.
 Click the APL# beneath a PACS Infrastructure on one of the rows that was 
-displayed after you clicked the (+) icon.  In this example, we chose PACS Infrastructure for Secure My Site (APL #99998).
+displayed after you clicked the (+) icon.  In this example, we chose PACS 
+Infrastructure for _Secure My Site (APL #99998)+.
 <!--- TODO: Show the summary page for Secure My Site PACS Infrastructure.-->
 <pre>
 <br/><br/><br/>
@@ -238,10 +243,10 @@ without working with an integrator, so GSAAdvantage.com is really only good for
 getting budgetary pricing for software and hardware for APL items. 
 ###GSA Advantage
 Here's how to use GSAAdvantage.com to obtain pricing for software and hardware.
-Click Shop by Category
-On the Services column, select Security and Law Enforcement
-Under Categories, select the link to Security Systems Integration and Design 
-Systems
+Click _Shop by Category_.
+On the _Services_ column, select _Security and Law Enforcement_.
+Under _Categories_, select the link to _Security Systems Integration and Design 
+Systems_.
 Search for the part number of the component found on the APL configuration form.
 Either the product won't be found, or one or more System Integrators will offer
  the product.
