@@ -8,7 +8,7 @@ $(function() {
   $( "#accordion" ).accordion({
     heightStyle: "content",
     collapsible: "true",
-    active: "false"
+    active: "true"
   });
 });
 </script>
