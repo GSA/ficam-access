@@ -3,18 +3,8 @@ layout: page_collection
 title: Step 2 - Conduct a Policy Analysis
 permalink: step2/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------
+-----------------------------------------------------
 
 Conducting a policy analysis will help you better understand the existing access control expectations and limitations, the selection and implementation of access control measures, and supporting enablers to protect your agency’s resources.  Understanding your policies across the enterprise will help you update existing policies and draft new ones to support your agency’s access control needs.
 

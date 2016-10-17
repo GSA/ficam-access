@@ -3,19 +3,8 @@ layout: page_collection
 title: Step 3 - Define Access Control Requirements
 permalink: step3/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
-
+-----------------------------------------------------
 Define your agencies access control requirements so that you can decide on access control model(s) and supporting enablers that fit your agency’s needs.  Successful completion of this step will ensure that your agency has a clear vision of the tools and capabilities necessary to support access management.
 
 

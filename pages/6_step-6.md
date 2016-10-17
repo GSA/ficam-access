@@ -3,18 +3,8 @@ layout: page_collection
 title: Step 6 - Choose Your Access Control Model
 permalink: step6/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "true"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
+-----------------------------------------------------
 
 You can use many access control models to determine how to handle user and resource attributes within access control transactions. Access control models are conceptual ways to express how an access control system implements specific policies using its underlying infrastructure components and security mechanisms.
 

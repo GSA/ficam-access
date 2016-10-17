@@ -3,19 +3,8 @@ layout: page_collection
 title: Access Management Framework
 permalink: framework/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
-
+-----------------------------------------------------
 The Access Management Framework was developed to provide you with the guidance to implement access control in your enterprise environment. It shows the many areas and components used to establish access management policies.
 
 The picture below is a view of the Access Management Framework and its key components.

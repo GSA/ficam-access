@@ -3,18 +3,8 @@ layout: page_collection
 title: Step 9 - Implement the Policy Administration Life Cycle
 permalink: step9/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
----------------------------------------------------------
+-----------------------------------------------------
 
 You should create well-defined, meaningful policies that address the security needs of your agency for effective access control. The Policy Administration Life Cycle produces policies that meet the requirements of the resource and access control model which are converted into digital policies in the Enablers part of the Framework. When using the more advanced access control models, these policies can support an agency’s efforts for establishing a centralized, enterprise-wide access control solution.
 

@@ -45,10 +45,6 @@ navigation:
   url: index.html
   internal: true
   coll: false
-- text: Access Management Framework
-  url: framework
-  internal: true
-  coll: false
 - text: Step 1 - Establish an Access Governance Structure
   url: step1
   internal: true
@@ -87,6 +83,10 @@ navigation:
   coll: false
 - text: Step 10 - Manage the System Development Life Cycle
   url: step10
+  internal: true
+  coll: false
+- text: Access Management Framework
+  url: framework
   internal: true
   coll: false
 - text: Contribute

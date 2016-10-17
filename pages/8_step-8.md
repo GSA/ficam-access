@@ -3,18 +3,8 @@ layout: page_collection
 title: Step 8 - Establish the Privilege Management Life Cycle
 permalink: step8/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
+-----------------------------------------------------
 
 Privilege management is the process of defining and managing the permissions associated with a subject. The authorization decision relies on the presence or absence of one or more access permissions. Similar to the Data Management Life Cycle, the Privilege Management Life Cycle supports the periodic refresh of this data so that access decisions are not based on expired, incorrect information.
 

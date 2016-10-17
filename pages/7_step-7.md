@@ -3,19 +3,8 @@ layout: page_collection
 title: Step 7 - Establish the Data Management Life Cycle
 permalink: step7/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
-
+-----------------------------------------------------
 The Data Management Life Cycle focuses on identifying, obtaining, and maintaining required data elements that enable access control decisions. Maintaining current data is essential to effective access management. Using incorrect or out of date data can lead to successful access attempts by unauthorized users that put an agency’s resources in jeopardy. The Data Management Life Cycle defines the phases agencies can follow to maintain current data.
 
 ### Checklist

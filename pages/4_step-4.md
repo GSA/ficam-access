@@ -3,18 +3,8 @@ layout: page_collection
 title: Step 4 - Identify Protected Resources
 permalink: step4/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
+-----------------------------------------------------
 
 Identifying your protected resources requires you to gather information from multiple resource inventories because the processes used to identify, track, and catalog resources are often distributed across multiple programs and systems within your agency. Each program or system collects and manages information about a subset of your agency’s resources.  For example, all agencies are required under FISMA to have a complete, current inventory of IT systems. ICAM implementers must be able to retrieve information about these resources quickly and efficiently to effectively manage access to them in a coordinated fashion. Additionally, physical and logical resources are typically managed separately from each other within an agency.
 
