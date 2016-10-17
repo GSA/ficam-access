@@ -1,7 +1,7 @@
 ---
 layout: page_collection
 title: Step 6 - Choose Your Access Control Model
-permalink: 6_step-6
+permalink: step6/
 ---
 <script>
 $(function() {
@@ -16,9 +16,9 @@ $(function() {
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
 -----------------------------------------------------------
 
-You can use many access control models to determine how to handle user and resource attributes within access control transactions. Access control models are conceptual ways to express how an access control system implements specific policies using its underlying infrastructure components and security mechanisms. 
+You can use many access control models to determine how to handle user and resource attributes within access control transactions. Access control models are conceptual ways to express how an access control system implements specific policies using its underlying infrastructure components and security mechanisms.
 
-We’ve listed the five access control models below. When considering access control models, it’s important to evaluate the capabilities of each resource being protected, their access control needs, and the overall risk to that resource. Your agency must implement some form of access control for each protected resource it owns. Below you will find five access control models including a brief description. 
+We’ve listed the five access control models below. When considering access control models, it’s important to evaluate the capabilities of each resource being protected, their access control needs, and the overall risk to that resource. Your agency must implement some form of access control for each protected resource it owns. Below you will find five access control models including a brief description.
 
 ### Static Models
 
@@ -99,7 +99,7 @@ We’ve listed the five access control models below. When considering access con
 <p><span>Access to resources is granted on a resource-by-resource basis, based upon an individual’s inclusion and corresponding privileges, as noted on the resource’s ACL.</span></p>
 
 <strong><span>Benefits</span></strong>
-<p><span>• Promotes compliance with standardized access controls.<br>• Flexible in not being linked to only one type of access control.<br>• Adapts quickly to new policy rules.</span></p> 
+<p><span>• Promotes compliance with standardized access controls.<br>• Flexible in not being linked to only one type of access control.<br>• Adapts quickly to new policy rules.</span></p>
 
 <strong><span>Limitations</span></strong>
 <p><span>• PBAC requires the design, deployment, and seamless integration of enterprise level systems (databases, directory services, etc.).<br>• Policies must be absolutely unambiguous to avoid unintentional, unauthorized access.<br>• Entire enterprise must use the same attributes for access and those attributes must be authoritative.• Not natively supported by common operating systems.</span></p>

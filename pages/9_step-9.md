@@ -1,7 +1,7 @@
 ---
 layout: page_collection
 title: Step 9 - Implement the Policy Administration Life Cycle
-permalink: 9_step-9/
+permalink: step9/
 ---
 <script>
 $(function() {
@@ -22,7 +22,7 @@ You should create well-defined, meaningful policies that address the security ne
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Define the access control policy scope and requirements for a target asset or resource.** The following considerations and inputs influence the access control policy definition process, including but not limited to: environment, users, unauthorized access risks, and existing policies, rules or internal processes that currently govern access to the resource or asset. The purpose of the Policy Definition process is to hone the general access control requirements of the protected resource into specific, well-defined requirements while taking other factors into account, such as federal standards and agency policies.
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Analyze policy definitions.** During this process, you’ll examine and analyze the policy definition outputs and findings that will help refine or create new access control policies. The analysis of the risks, rules, and inputs discovered is used to determine the authentication token type, the access control model, the relevant authorization model, and the tools used to enforce access. As previously mentioned, the access control model has an effect on every aspect of the Framework and should be selected appropriately. 
+> <i class="fa fa-check-square-o"></i> &nbsp;**Analyze policy definitions.** During this process, you’ll examine and analyze the policy definition outputs and findings that will help refine or create new access control policies. The analysis of the risks, rules, and inputs discovered is used to determine the authentication token type, the access control model, the relevant authorization model, and the tools used to enforce access. As previously mentioned, the access control model has an effect on every aspect of the Framework and should be selected appropriately.
 
 > <i class="fa fa-check-square-o"></i> &nbsp;**Create access control policies using access control mechanisms and technology platforms.** During this creation phase, you’ll focus on building access control policies based on the rules, requirements, and designs developed in previous phases. You’ll also need to test use cases to evaluate the efficacy of the policy created are developed during this phase.
 

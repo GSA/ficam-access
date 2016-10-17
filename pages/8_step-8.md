@@ -1,7 +1,7 @@
 ---
 layout: page_collection
 title: Step 8 - Establish the Privilege Management Life Cycle
-permalink: 8_step-8
+permalink: step8/
 ---
 <script>
 $(function() {
@@ -33,6 +33,6 @@ As you work towards automated access control for protected resources, you should
 <div style="background-color: #edf1f3;color: black;margin: 10px;padding: 10px">
 
 <h5><span>*Review Periodically: Auditing and Reporting</span></h5>
-<p><span> The FICAM Architecture does not specify particular requirements for auditing and reporting capabilities; however, many of the efforts agencies will be performing on their physical and logical access control systems present an opportunity to improve and automate their existing capabilities. For PACS, the transition to enterprise level services increases the visibility into logged access event data and increases the ability to correlate that data across individual site PACS, resulting in improved auditing and reporting capabilities. For logical access, many of the commercially available solutions that can be used to provide enterprise LACS services include native auditing and reporting tools that can be configured to meet a variety of agency requirements.</span></p> 
+<p><span> The FICAM Architecture does not specify particular requirements for auditing and reporting capabilities; however, many of the efforts agencies will be performing on their physical and logical access control systems present an opportunity to improve and automate their existing capabilities. For PACS, the transition to enterprise level services increases the visibility into logged access event data and increases the ability to correlate that data across individual site PACS, resulting in improved auditing and reporting capabilities. For logical access, many of the commercially available solutions that can be used to provide enterprise LACS services include native auditing and reporting tools that can be configured to meet a variety of agency requirements.</span></p>
 
 </div>
