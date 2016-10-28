@@ -1,26 +1,15 @@
 ---
 layout: page_collection
 title: Step 7 - Establish the Data Management Life Cycle
-permalink: 7_step-7
+permalink: step7/
 ---
-<script>
-$(function() {
-  $( "#accordion" ).accordion({
-    heightStyle: "content",
-    collapsible: "true",
-    active: "false"
-  });
-});
-</script>
-
 <script src="https://use.fontawesome.com/e20c671b68.js"></script>
------------------------------------------------------------
-
+-----------------------------------------------------
 The Data Management Life Cycle focuses on identifying, obtaining, and maintaining required data elements that enable access control decisions. Maintaining current data is essential to effective access management. Using incorrect or out of date data can lead to successful access attempts by unauthorized users that put an agency’s resources in jeopardy. The Data Management Life Cycle defines the phases agencies can follow to maintain current data.
 
-### Checklist 
+### Checklist
 
-> <i class="fa fa-check-square-o"></i> &nbsp;**Identify requirements and obtain data required by your access control model.** This data includes attributes and their associated metadata about subjects, resources, and the contextual environment. Once you’ve have identified what data is required, you’ll need to determine where it’s located, how to obtain authorization to regularly retrieve it, and establish the authoritative source for required attributes. Required data could be within your resource’s systems (and therefore accessible) or it may be located elsewhere within your agency, or at an external source. Acquiring data that’s not currently available to a resource requires coordinating with the owner of that data and coming to an agreement on its use, definition, and how it will be obtained or transferred. 
+> <i class="fa fa-check-square-o"></i> &nbsp;**Identify requirements and obtain data required by your access control model.** This data includes attributes and their associated metadata about subjects, resources, and the contextual environment. Once you’ve have identified what data is required, you’ll need to determine where it’s located, how to obtain authorization to regularly retrieve it, and establish the authoritative source for required attributes. Required data could be within your resource’s systems (and therefore accessible) or it may be located elsewhere within your agency, or at an external source. Acquiring data that’s not currently available to a resource requires coordinating with the owner of that data and coming to an agreement on its use, definition, and how it will be obtained or transferred.
 
 <div style="background-color: #edf1f3;color: black;margin: 10px;padding: 10px">
 

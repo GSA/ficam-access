@@ -46,47 +46,47 @@ navigation:
   internal: true
   coll: false
 - text: Step 1 - Establish an Access Governance Structure
-  url: 1_step-1
+  url: step1
   internal: true
   coll: false
 - text: Step 2 - Conduct a Policy Analysis
-  url: 2_step-2
+  url: step2
   internal: true
   coll: false
 - text: Step 3 - Define Access Control Requirements
-  url: 3_step-3
+  url: step3
   internal: true
   coll: false
 - text: Step 4 - Identify Protected Resources
-  url: 4_step-4
+  url: step4
   internal: true
   coll: false
 - text: Step 5 - Conduct a Risk Assessment
-  url: 5_step-5
+  url: step5
+  internal: true
+  coll: false
+- text: Step 6 - Choose Your Access Control Model
+  url: step6
+  internal: true
+  coll: false
+- text: Step 7 - Establish the Data Management Life Cycle
+  url: step7
+  internal: true
+  coll: false
+- text: Step 8 - Establish the Privilege Management Life Cycle
+  url: step8
+  internal: true
+  coll: false
+- text: Step 9 - Establish the Policy Administration Life Cycle
+  url: step9
+  internal: true
+  coll: false
+- text: Step 10 - Manage the System Development Life Cycle
+  url: step10
   internal: true
   coll: false
 - text: Access Management Framework
   url: framework
-  internal: true
-  coll: false
-- text: Step 6 - Choose Your Access Control Model
-  url: 6_step-6
-  internal: true
-  coll: false
-- text: Step 7 - Establish the Data Management Life Cycle
-  url: 7_step-7
-  internal: true
-  coll: false
-- text: Step 8 - Establish the Privilege Management Life Cycle
-  url: 8_step-8
-  internal: true
-  coll: false
-- text: Step 9 - Establish the Policy Administration Life Cycle
-  url: 9_step-9
-  internal: true
-  coll: false
-- text: Step 10 - Manage the System Development Life Cycle
-  url: 10_step-10
   internal: true
   coll: false
 - text: Contribute
