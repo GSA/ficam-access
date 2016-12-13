@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 3 - Define Access Control Requirements
 permalink: step3/
 ---

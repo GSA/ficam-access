@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 4 - Identify Protected Resources
 permalink: step4/
 ---

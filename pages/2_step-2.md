@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 2 - Conduct a Policy Analysis
 permalink: step2/
 ---

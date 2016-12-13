@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 1 - Establish an Access Governance Structure
 permalink: step1/
 ---

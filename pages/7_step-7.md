@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 7 - Establish the Data Management Life Cycle
 permalink: step7/
 ---

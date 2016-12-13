@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 8 - Establish the Privilege Management Life Cycle
 permalink: step8/
 ---
