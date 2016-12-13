@@ -1,29 +1,37 @@
 # Site settings
-title: Manage Access Control Playbook
-name: Manage Access Control Playbook
+title: Access Management Guide
+name: Access Management Guide
 email: icam@gsa.gov
 author:
     name: FICAM
-description: Access Control Guidance
+description: Access Management Guide
 baseurl: '/ficam-access'
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  lachellel
+github_username:  gsa
 highlighter: rouge
-branch: master
+branch: staging
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /ficam-access/img/logo.png
 logoalt: Federal Identity Credential and Access Management
 
-ficam_playbooks_url: /ficam-guides/
+# Links
+# List links that you would like to appear on the top navigation bar here
+navbar:
+- title: IDmanagement.gov
+  description: Idmanagement.gov
+  url: https://www.idmanagement.gov
+- title: Federal ICAM Architecture
+  description: Federal ICAM Architecture
+  url: https://gsa.github.io/ficam-arch/
+- title: PIV Guides
+  description: PIV Guides
+  url: https://gsa.github.io/piv-guides/
+#- title: Federal PKI Guides
+#  description: Federal PKI Guides
+#  url: https://github.com/gsa/fpki-guides
 
-# Repo list
-# List repos that you would like to appear on the homepage here
-repos:
-- name: program-guides
-  description: FICAM Playbook - Manage Access Control
-  url: https://github.com/gsa/ficam-access
+# Put the information about your site's GitHub repository if it is public
+repo_url: https://github.com/GSA/ficam-access/
 
 # Build settings
 markdown: kramdown
@@ -41,8 +49,8 @@ exclude:
 - vendor
 
 navigation:
-- text: Home
-  url: index.html
+- text: Introduction
+  url: ''
   internal: true
   coll: false
 - text: Step 1 - Establish an Access Governance Structure

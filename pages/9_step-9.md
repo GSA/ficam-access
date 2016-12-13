@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 9 - Implement the Policy Administration Life Cycle
 permalink: step9/
 ---

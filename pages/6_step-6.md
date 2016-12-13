@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 6 - Choose Your Access Control Model
 permalink: step6/
 ---

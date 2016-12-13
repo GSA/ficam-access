@@ -1,5 +1,5 @@
 ---
-layout: page_collection
+layout: default
 title: Step 5 - Conduct a Risk Assessment
 permalink: step5/
 ---
