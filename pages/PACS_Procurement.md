@@ -240,8 +240,8 @@ Need More Information?
 {% include alert-info.html heading = "Need More Information?" content="The listings below provide resources and Point of Contact(s) (POC) for your agency and provides assistance in locating PACS information." %}
 
 ##### [Federal Policy and Publications](#federal-policy-and-standards)
-##### [GSA Acquisition Information and Schedules](#general-services-administration-(gsa)-and-ficam-information)
-##### [PACS Point of Contact(s)](#pacs-points-of-contact-(poc))
+##### [GSA Acquisition Information and Schedules](#general-services-administration-gsa-and-ficam-information)
+##### [PACS Point of Contact(s)](#pacs-points-of-contact-poc)
 
 
 #### Federal Policy and Standards
