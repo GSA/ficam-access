@@ -50,7 +50,7 @@ This section explains general guidance on:
 ## FIPS 201
 **FIPS 201** is guidance provided by NIST that details specifics of the Personal Identity Verification (PIV) of Federal Employees and Contractors.  It provides standards for specifications on Federal Physical Access Control Systems (PACS).  **FIPS 201** provides descriptions on how the PIV card is implemented through Federal agencies.
 
-**	FIPS 201 Testing Program
+**FIPS 201 Testing Program**
 
 ![PIV Features](../img/pacs-buying_lab.JPG){:style="float:left"}
 
@@ -72,21 +72,21 @@ Below is a listing of **PACS** component categories detailing the different type
 
 *	**PACS Infrastructure -** Multiple interoperable software and hardware components that includes software applications, servers, databases, door controllers and workstations.
 
-![PVI icon](../img/pacs-buying_validation-infrastucture_icon.JPG){:style="float:right"}
-
 *	**PACS Validation System –** Electronic Authentication of Cards and Card Holders.
+
+![PVI icon](../img/pacs-buying_validation-infrastructure_icon.JPG){:style="float:right"}
 
 *	**PACS Infrastructure and Validation Infrastructure –** Includes the PACS Infrastructure and functions used to perform identification and authentication of individuals (including the registration and management software). The Validation Systems uses the PIV card. 
 
-*	**PACS PIV Reader –** Used to perform CAK-Authentication.  The PIV Reader has 3 subcomponents.
-
 ![PIV Reader](../img/pacs-buying_PIV-reader.JPG){:style="float:left"}
 
-*	PIV with Single Factor – A PIV card with no identification capabilities for the person, only identifies the card.
+*	**PACS PIV Reader –** Used to perform CAK-Authentication.  The PIV Reader has 3 subcomponents.
 
-*	PIV with Dual Factor – A PIV card with a PIN (something you know and something you have)
+  *	PIV with Single Factor – A PIV card with no identification capabilities for the person, only identifies the card.
 
-*	PIV with 3 Factor – A PIV card with a Biometric (something you have, something you know and something you are)
+  *	PIV with Dual Factor – A PIV card with a PIN (something you know and something you have)
+
+  *	PIV with 3 Factor – A PIV card with a Biometric (something you have, something you know and something you are)
 
 ## GSA Schedules
 
@@ -100,7 +100,7 @@ Below is a listing of **PACS** component categories detailing the different type
 
 *	Lowers the Cost
 
-## eLibrary 
+## [GSA eLibrary](https://www.gsaelibrary.gsa.gov/ElibMain/home.do) 
 
 The **eLibrary** is a GSA Federal Acquisition Service website.  It features contactor listings for IT Schedules and provides information for both Schedule 70 ad 84 acquisitions.  You can search for supplies and services for your agency through categories and a SIN.  You can also view contract clauses within the GSA eLibrary.
 
