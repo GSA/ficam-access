@@ -26,8 +26,7 @@ In PKI, a public key certificate (also known as a digital certificate or identit
 
 If the CA’s digital signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Smartcards contain public and private keys, and certificates that can be read by federal PACS to help validate the identity of a person entering a federal facility.
 
-Online Certificate Status Protocol (OCSP) Responders are used to determine if a PKI certificate has been revoked or have expired.  
-PACS systems access this information to help make access control decisions. If a smartcard holder certificates have been revoked or have expired the smartcard holder will be denied access into the facility. An OCSP Responder is part of the federal government’s existing PKI and is not a component that will need to be purchased with a PACS. 
+Online Certificate Status Protocol (OCSP) Responders are used to determine if a PKI certificate has been revoked or have expired. PACS systems access this information to help make access control decisions. If a smartcard holder certificates have been revoked or have expired the smartcard holder will be denied access into the facility. An OCSP Responder is part of the federal government’s existing PKI and is not a component that will need to be purchased with a PACS. 
 
 PACS used to make access control decisions within the federal government may consist of many components to include:
 
