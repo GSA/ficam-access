@@ -31,17 +31,17 @@ PACS systems access this information to help make access control decisions. If a
 
 PACS used to make access control decisions within the federal government may consist of many components to include:
 
-•	Smartcard Reader (used to read information about a person stored on the smartcard) 
+* Smartcard Reader (used to read information about a person stored on the smartcard) 
 
-•	PACS Infrastructure Controller (used to control the opening of gates and doors) 
+* PACS Infrastructure Controller (used to control the opening of gates and doors) 
 
-•	Secure Controller (located in a secure area and communicates with the PIV Card, Head End System, and PACS Infrastructure Controller to make access control decisions)
+* Secure Controller (located in a secure area and communicates with the PIV Card, Head End System, and PACS Infrastructure Controller to make access control decisions)
 
-•	Database Server (contains the names of smartcard holders and their facility access rights) 
+*	Database Server (contains the names of smartcard holders and their facility access rights) 
 
-•	Caching Status Proxy Server (used to cache smartcard holders data to optimize the performance of PACS)
+*	Caching Status Proxy Server (used to cache smartcard holders data to optimize the performance of PACS)
 
-•	Head End System/Access Control Server (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
+*	Head End System/Access Control Server (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
 
 
 {% include alert-info.html content="To further improve the PACS used in federal buildings and facilities, the federal government has mandated that PACS meet the National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) 201 standard for Personal Identity Verification (PIV)." %}
@@ -57,18 +57,20 @@ HSPD-12 is a strategic initiative intended to enhance security, increase Governm
 ## What are somre NIST PIV requirements for PACS?
 
 * PACS must be designed and configured to read and process the appropriate electronic identification information associated with an individual that is stored on a PIV Card.
+
 *	PACS are required to be tested to ensure they meet the minimum security and interoperability requirements outlined in the NIST FIPS 201 PIV standard.
 
 ![Example PIV card](../img/PIV_card.png)
 
-*	The PIV Card is the individual cardholders identity credential for accessing government buildings, facilities and computer networks. 
-* The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.
-*	The PACS installed for that area will be required to access and validate the appropriate PIV credential to meet the facilities security assurance level requirements.
+*	The PIV Card is the individual cardholders identity credential for accessing government buildings, facilities and computer networks.
 
+* PIV PACS are required to access and validate the appropriate PIV certificate to meet the facilities security assurance level requirements.
 
-*	Single Factor Authentication - Something you have (PIV Card) + visual check
-*	Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
-*	Three Factor Authentication - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
+* The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A federal facillity may require:
+
+  *Single Factor Authentication - Something you have (PIV Card) + visual check
+  *Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
+  *Three Factor Authentication - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
 
 Note: Possession of a valid PIV Card as evidence by visual inspection of the card, reading a signed identity cert from the card, or performing challenge/response authentication with the card, provides one-factor authentication.  See examples below:  
 
