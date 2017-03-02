@@ -16,6 +16,8 @@ Physical access control is a security method used to help prevent unauthorized a
 
 The most recognizable physical access control method and the one synonymous with security is the use of human security guards to protect important assets.
 
+![security guard](../img/PACS_Office_Security_Guard.jpg)
+
 As technology advanced and matured, electronic PACS have become a critical component in the federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
 PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in federal facilities.  
@@ -68,9 +70,9 @@ HSPD-12 is a strategic initiative intended to enhance security, increase Governm
 
 * The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A federal facillity may require:
 
-  *Single Factor Authentication - Something you have (PIV Card) + visual check
-  *Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
-  *Three Factor Authentication - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
+  * Single Factor Authentication - Something you have (PIV Card) + visual check
+  * Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
+  * Three Factor Authentication - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
 
 Note: Possession of a valid PIV Card as evidence by visual inspection of the card, reading a signed identity cert from the card, or performing challenge/response authentication with the card, provides one-factor authentication.  See examples below:  
 
