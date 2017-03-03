@@ -38,10 +38,9 @@ PACS used to make access control decisions within the federal government may con
 
 *	Database Server (contains the names of smartcard holders and their facility access rights) 
 
-*	Caching Status Proxy Server (used to cache smartcard holders data to optimize the performance of PACS)
-
 *	Head End System/Access Control Server (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
 
+There are many other components that makes up a PACS that plays an important role with making physical access control decisions.  These  components will be discussed later in this guide.
 
 {% include alert-info.html content="To further improve the PACS used in federal buildings and facilities, the federal government has mandated that PACS meet the National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) 201 standard for Personal Identity Verification (PIV)." %}
 
