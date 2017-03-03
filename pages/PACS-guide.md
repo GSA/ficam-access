@@ -163,7 +163,7 @@ Used to determine whether the PIV Card-holder’s digital identification (i.e., 
 
 *	Online Certificate Status Protocol (OCSP) Responders (Core component – Not on GSA APL)
 
-Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and has not expired.  An expired certificate is like an expired driver’s license; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they are not part of a PACS system for purchase on the GSA APL.  It will be part of your current infrastructure.
+Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they are not part of a PACS system for purchase on the GSA APL.  It will be part of your current infrastructure.
 
 *	Caching status proxy server (Core Component)
 
