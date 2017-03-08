@@ -10,6 +10,23 @@ Buying a Federal Identity Credential & Access Management (FICAM) Compliant Physi
 
 ![OMB M-05-24](../img/pacs-buying_M-05-24.JPG){:style="float:right"}
 
+## Table of Contents
+
+[**Introduction (What is an E-PACS?)**](#introduction---what-is-an-e-pacs)
+
+[**Stages of the E-PACS Procurement Process (What your Agency should know)**](#stages-of-the-e-pacs-procurement-process---what-your-agency-should-know)
+
+[**Implementation: Stages of the E-PACS Procurement Process)**](#implementation--stages-of-the-e-pacs-procurement-process)
+
+[**Need More Information?**](#need-more-information)
+
+
+
+
+
+
+
+
 ## Introduction - *What is an E-PACS?*
 
 ### Understanding PACS
