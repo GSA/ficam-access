@@ -10,7 +10,7 @@ permalink: /PACS-guide/
 This guide is intended to provide a general overview of Federal Information the Processing Standards (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
 
 ## Overview "What is a PACS"
-A PACS is an electronic system that controls the ability of people or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices used in physical access control.
+A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
 
 Physical access control is a security method used to help prevent unauthorized access to a building, room or protected area.  It helps to ensure that only individuals who are authorized have unescorted access to these protected areas. There are many ways to provide physical access control - from the utilization of a wall or fence, to the use of a traditional lock and key solution, as seen in cars and homes today.
 
