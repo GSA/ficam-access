@@ -40,7 +40,7 @@ PACS used to make access control decisions within the federal government may con
 
 *	Head End System/Access Control Server (Used to register PIV Cardholders into the PACS and to refresh the controller with the latest information)
 
-There are many other components that makes up a PACS that plays an important role with making physical access control decisions.  Those  components will be discussed later in this guide.
+There are other components that makes up a PACS that plays an important role with making physical access control decisions.  Those  components will be discussed in more detail later in this guide.
 
 {% include alert-info.html content="To further improve the PACS used in federal buildings and facilities, the federal government has mandated that PACS meet the National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) 201 standard for Personal Identity Verification (PIV)." %}
 
@@ -76,7 +76,6 @@ Note: Possession of a valid PIV Card as evidence by visual inspection of the car
 *	PACS can perform a signature check of the Cardholder Unique Identifier (CHUID) to ensure it was signed by a trusted source and is unaltered and check the expiration date to ensure it’s still valid.
 
 NIST FIPS 201 provided the opportunity to migrate building access systems from LITTLE OR NO confidence assurance levels to VERY HIGH confidence assurance levels.
-
 
 ## What are the benefits of PIV compliant PACS?
 
@@ -156,14 +155,6 @@ The PIV Reader products communicates via wires (e.g. RS-485, Ethernet) or by sec
 ### **PACS Validation System**
 The PACS Validation System provides the necessary functions to perform identification and authentication of the PIV Cardholder and also the PIV Card using a challenge/response process. A Validation System is made up of several compatible and interoperable components that may include:  
 
-*	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component – Not on GSA APL)
-
-Used to determine whether the PIV Card-holder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy and not on the GSA APL.
-
-*	Online Certificate Status Protocol (OCSP) Responders (Core component – Not on GSA APL)
-
-Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they are not part of a PACS system for purchase on the GSA APL.  It will be part of your current infrastructure.
-
 *	Caching status proxy server (Core Component)
 
 Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the revocation status is immediately available when the card is presented at PACS. 
@@ -179,6 +170,14 @@ The PKI validation software can be part of the Caching Status Proxy Server, PKI 
 *	PKI registration and management software (Core Component)
 
 Used to manage PIV-Card-holders registered in the PACS database authorization requirements to a facility.  The PKI registration and management software is an integrated part of the PACS.
+
+*	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component – Not on GSA APL)
+
+Used to determine whether the PIV Card-holder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy and not on the GSA APL.
+
+*	Online Certificate Status Protocol (OCSP) Responders (Core component – Not on GSA APL)
+
+Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they are not part of a PACS system for purchase on the GSA APL.  It will be part of your current infrastructure.
 
 ### **PACS Infrastructure**
 The PACS Infrastructure is made up of many compatible and interoperable hardware and software components to include:
