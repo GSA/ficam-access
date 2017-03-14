@@ -20,11 +20,7 @@ As technology advanced and matured, electronic PACS have become a critical compo
 
 A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in federal facilities.  
 
-PACS used for secure federal buildings utilize Public Key Infrastructure (PKI) technology to help with access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information via the network.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority (CA)).  
-
-In PKI, a public key certificate (also known as a digital certificate or identity certificate) is an electronic document used to prove the ownership of a public key.  The certificate includes information about the key, information about its owner's identity, and the digital signature of the trusted source (i.e., CA) that has verified that the certificate's contents are correct.  
-
-If the CA’s digital signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Smartcards contain public and private keys within the certificates that can be read by federal PACS to help validate the identity of a person entering a federal facility.
+PACS used for secure federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
 Online Certificate Status Protocol (OCSP) Responders are used to determine if a PKI certificate has been revoked. PACS systems access this information to help make access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. An OCSP Responder is part of the federal government’s existing PKI and is not a component that will need to be purchased with a PACS. 
 
@@ -184,11 +180,11 @@ The PACS Infrastructure is made up of many compatible and interoperable hardware
 
 *	Controller (field panels or door controllers) - (Core Component)
 
-The PACS Infrastructure Controller is located on the non-secure side of an area (i.e., in the field) and it controls the door (i.e., door locking mechanism).  The PACS Infrastructure Controller receives card identifier information about the PIV Card-holder from Secure Controller, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Card-holder access to a facility.  
+The PACS Infrastructure Controller controls the door (i.e., door locking mechanism).  The PACS Infrastructure Controller receives card identifier information about the PIV Cardholder from Secure Controller, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  
 
 * PACS Application and Head End System (Core Component)
 
-The Head End System is used to enroll an individual PIV Card-holder’s name into the database, checks the PIV Card unique ID number that already exist for each individual requiring physical access, and assign access privileges and an expiration date for these privileges.  The Head End server is used to maintain this information and refreshes the Controllers with the latest changes.   
+The Head End System is used to enroll an individual PIV Card-holder’s demographic information into the database, checks the PIV Card unique ID number that already exist for each individual requiring physical access, and assign access privileges and an expiration date for these privileges.  The Head End server is used to maintain this information and refreshes the Controllers with the latest changes.   
  
 *	Database and Server (Core Component)
 
