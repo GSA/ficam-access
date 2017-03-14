@@ -152,7 +152,7 @@ Used in PACS to provide audible alerts. Intergrated into PACS.
 
 The PIV Reader products communicates via wires (e.g. RS-485, Ethernet) or by secure wireless, to the Validation System and other PACS devices.  Integrated into the PACS.
 
-###**PACS Validation System**
+### **PACS Validation System**
 The PACS Validation System provides the necessary functions to perform identification and authentication of the PIV Cardholder and also the PIV Card using a challenge/response process. A Validation System is made up of several compatible and interoperable components that may include:  
 
 *	Caching status proxy server (Core Component)
@@ -186,7 +186,7 @@ The PACS Infrastructure is made up of many compatible and interoperable hardware
 
 The PACS Infrastructure Controller is located on the non-secure side of an area (i.e., in the field) and it controls the door (i.e., door locking mechanism).  The PACS Infrastructure Controller receives card identifier information about the PIV Card-holder from Secure Controller, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Card-holder access to a facility.  
 
-*		PACS Application and Head End System (Core Component)
+* PACS Application and Head End System (Core Component)
 
 The Head End System is used to enroll an individual PIV Card-holder’s name into the database, checks the PIV Card unique ID number that already exist for each individual requiring physical access, and assign access privileges and an expiration date for these privileges.  The Head End server is used to maintain this information and refreshes the Controllers with the latest changes.   
  
