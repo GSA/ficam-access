@@ -152,7 +152,7 @@ Used in PACS to provide audible alerts. Intergrated into PACS.
 
 The PIV Reader products communicates via wires (e.g. RS-485, Ethernet) or by secure wireless, to the Validation System and other PACS devices.  Integrated into the PACS.
 
-### **PACS Validation System**
+###**PACS Validation System**
 The PACS Validation System provides the necessary functions to perform identification and authentication of the PIV Cardholder and also the PIV Card using a challenge/response process. A Validation System is made up of several compatible and interoperable components that may include:  
 
 *	Caching status proxy server (Core Component)
