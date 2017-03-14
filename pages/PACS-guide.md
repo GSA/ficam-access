@@ -128,6 +128,14 @@ Communicates with the PIV smartcard wirelessly using Radio Frequency (RF) techno
 
 Used in conjunction with the PIV Reader to provide two-factor authentication. Personnel will present their PIV Card to the PIV Reader, and based on the level of security required for the facility, the system may require the PIV-cardholder to enter their Personal Identification number (PIN). This provides two-factor authentication to enter the facility (something you have (PIV Card) and something you know (PIN)).  
 
+*	Fingerprint sensor
+
+Used with PIV Card Readers and the Pin Pad to provide 3 factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
+
+*	Other biometric modalities 
+
+Iris comparison is the only other allowable biometric.  As of today, no iris readers have been GSA approved. An iris scanner/reader (when approved) can be utilized to access biometric data stored on the PIV Card to provide physical access to a federal facility. 
+
 * LCD Display
 
 Provide PACS visual notifications to PIV Card-holders.  Visual notifications can include error messages; proceed or stop messages or some other type of notification to alert or direct an individual. Intergrated into PACS.
@@ -139,14 +147,6 @@ Similar to LCD displays in that they are used to provide a visual message to the
 *	Audio announcers
 
 Used in PACS to provide audible alerts. Intergrated into PACS.
-
-*	Fingerprint sensor
-
-Used with PIV Card Readers and the Pin Pad to provide 3 factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
-
-*	Other biometric modalities 
-
-Iris comparison is the only other allowable biometric.  As of today, no iris readers have been GSA approved. An iris scanner/reader (when approved) can be utilized to access biometric data stored on the PIV Card to provide physical access to a federal facility.  
 
 *	Communications to a Validation System
 
@@ -171,13 +171,13 @@ The PKI validation software can be part of the Caching Status Proxy Server, PKI 
 
 Used to manage PIV-Card-holders registered in the PACS database authorization requirements to a facility.  The PKI registration and management software is an integrated part of the PACS.
 
-*	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component – Not on GSA APL)
+*	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component)
 
-Used to determine whether the PIV Card-holder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy and not on the GSA APL.
+Used to determine whether the PIV Card-holder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy to be utilized.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
 
-*	Online Certificate Status Protocol (OCSP) Responders (Core component – Not on GSA APL)
+*	Online Certificate Status Protocol (OCSP) Responders (Core component)
 
-Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they are not part of a PACS system for purchase on the GSA APL.  It will be part of your current infrastructure.
+Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and not revoked.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they normally already exist as part of your current Public Key Infrastructure.
 
 ### **PACS Infrastructure**
 The PACS Infrastructure is made up of many compatible and interoperable hardware and software components to include:
