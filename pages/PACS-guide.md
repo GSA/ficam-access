@@ -157,7 +157,7 @@ The PACS Validation System provides the necessary functions to perform identific
 
 *	Caching status proxy server (Core Component)
 
-Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the revocation status is immediately available when the card is presented at PACS. 
+Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the certifcate trust path and revocation status are immediately available when the card is presented at PACS. 
 
 *	Secure Controllers (Core Component)
 
@@ -167,13 +167,13 @@ The Secure Controller is located within a secure area.  It communicates with mul
 
 The PKI validation software can be part of the Caching Status Proxy Server, PKI registration and management software and secure controllers.  It verifies that the PIV Card contents are valid and have been issued by a trusted authority and it verifies that PIV Card has not been cloned.   The PKI validation software is used as an interface between the PIV Card reader and the secure controller as part of the PACS Validation System.  The PKI validation software is an integrated part of the PACS.
 
-*	PKI registration and management software (Core Component)
+*	PKI/PIV Card registration and management software (Core Component)
 
-Used to manage PIV-Card-holders registered in the PACS database authorization requirements to a facility.  The PKI registration and management software is an integrated part of the PACS.
+Used to validate and capture demographic/PKI information from the PIV card and register the card with the PACS.  The data captured is stored in the PACS and used by the PACS PKI management software to manage the useers authorization requirements to a facility.  The PIV card information validated, captured and stored into the PACS can include, the PIV cardholder's name, card number, expiration date, photo, and certificates.  The PKI registration and management software is an integrated part of the PACS.
 
 *	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component)
 
-Used to determine whether the PIV Card-holder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy to be utilized.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
+Used to determine whether the PIV Cardholder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy to be utilized.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
 
 *	Online Certificate Status Protocol (OCSP) Responders (Core component)
 
