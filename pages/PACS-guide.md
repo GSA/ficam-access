@@ -18,11 +18,11 @@ The most recognizable physical access control method and the one synonymous with
 
 As technology advanced and matured, PACS have become a critical component in the Federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
-A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities.  
+A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities.  
 
 PACS used for secure Federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
-The Federal government use Online Certificate Status Protocol (OCSP) Responders to determine if a PKI certificate has been revoked. PACS access this information to help make physical access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. The utilization of an OCSP Responder is one of many components used to make physical access control decisions within the Federal government.  However, an OCSP Responder is normally not a component that will need to be purchase with a PACS as it should already exist as part of the Federal government’s existing PKI. 
+The Federal government use Online Certificate Status Protocol (OCSP) Responders to determine if a PKI certificate has been revoked. PACS access this information to help make physical access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. The utilization of an OCSP Responder is one of many components used to make physical access control decisions within the Federal government.  However, an OCSP Responder is normally not a component that will need to be purchased with a PACS as it should already exist as part of the Federal government’s existing PKI. 
 
 PACS used to make access control decisions within the Federal government may consist of many components to include:
 
@@ -42,7 +42,7 @@ There are other components that makes up a PACS that plays an important role wit
 
 ## Why Implement the NIST PIV Standard?
 
-The NIST FIPS 201 PIV standard contains the minimum requirements for a Federal PIV system that meets the control and security objectives of Homeland Security Presidential Directive -2 (HSPD-12).  The NIST FIPS 201 PIV standard also provides detailed specifications that will support technical interoperability among PIV systems of Federal departments and agencies.  PIV Cards that meet the NIST FIPS 201 PIV standard will be interoperable with all PIV PACS within the Federal Government.  In order to achieve interoperability within the Federal Government, all Federal agencies must configure their PACS to meet the PIV standard to support the PIV Card.
+The NIST FIPS 201 PIV standard contains the minimum requirements for a Federal PIV system that meets the control and security objectives of Homeland Security Presidential Directive-12 (HSPD-12).  The NIST FIPS 201 PIV standard also provides detailed specifications that will support technical interoperability among PIV systems of Federal departments and agencies.  PIV Cards that meet the NIST FIPS 201 PIV standard will be interoperable with all PIV PACS within the Federal Government.  In order to achieve interoperability within the Federal Government, all Federal agencies must configure their PACS to meet the PIV standard to support the PIV Card.
 
 ## What is HSPD-12 and what was its intended goal?
 
@@ -77,7 +77,7 @@ NIST FIPS 201 provided the opportunity to migrate building access systems from L
 
 * PIV compliant PACS allow Federal employees and contractors to utilize the same PIV card for physical access into all Federal facilities for which they are authorized.
 
-* Creates standardization and promotes interoperability within the Federal Government by Integrating several disparate PACSs into an enterprise system
+* Creates standardization and promotes interoperability within the Federal Government by integrating several disparate PACSs into an enterprise system
 
 * Provides a system that promotes trust and create efficiency by rapidly authenticating credentials electronically for entering and exiting Federal facilities
 
@@ -110,7 +110,7 @@ A PIV Reader (i.e., smartcard reader) is a device that provides the human interf
 *	Two Factor PIV Readers – Has a Pin Pad but no Biometric Reader
 * Three Factor PIV Readers – Has Pin Pad and Biometric Reader
 
-Example of a PIV Reader in operation: Federal employees and contractors will present their PIV Card to the PIV reader to obtain entry into a controlled Federal facility.  The PIV Reader reads the identifying information stored on the PIV Card that is associated with the individual PIV Cardholder. It then communicates that information to the PACS Validation System.  The Validation System will validate the credentials of the individual stored on the PIV Card.  The information obtained from the PIV Card will determine if the individual will be granted physical access to the facility. A PIV reader may be a wholly-integrated unit, or it may be an assembly of components including:
+Example of a PIV Reader in operation: Federal employees and contractors will present their PIV Card to the PIV Reader to obtain entry into a controlled Federal facility.  The PIV Reader reads the identifying information stored on the PIV Card that is associated with the individual PIV Cardholder. It then communicates that information to the PACS Validation System.  The Validation System will validate the credentials of the individual stored on the PIV Card.  The information obtained from the PIV Card will determine if the individual will be granted physical access to the facility. A PIV Reader may be a wholly-integrated unit, or it may be an assembly of components including:
 
 * Contact Reader (Core Component)
 
@@ -153,23 +153,23 @@ The PACS Validation System provides the necessary functions to perform identific
 
 *	Caching status proxy server (Core Component)
 
-Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the certifcate trust path and revocation status are immediately available when the card is presented at PACS. 
+Used to cache PIV-Cardholders data to optimize the performance of PACS.  It continuously validates all of the certificates captured from all of the PIV Cards stored in the PACS database so that the certifcate trust path and revocation status are immediately available when the card is presented at the PACS. 
 
 *	Secure Controllers (Core Component)
 
-The Secure Controller is located within a secure area.  It communicates with multiple PIV Card readers (for 1, 2 or 3 factor authentication), door actuators/PACS Infrastructure Controller (i.e., door controller), and the Head End System.  The Secure Controller receives information about the PIV Cardholder from the PIV Card reader.  Once the cardholder is identified, the Secure Controller sends the card identifier information to the PACS infrastructure controller/panel (located in a non-secure area) which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  The Secure Controller communicates to the Head End System to receive changes in the PIV Cardholder access permissions to obtain updated information.  
+The Secure Controller is located within a secure area.  It communicates with multiple PIV Card readers (for 1, 2 or 3 factor authentication), door actuators/PACS Infrastructure Controller (i.e., door controller), and the Head End System.  The Secure Controller receives information about the PIV Cardholder from the PIV Card reader.  Once the cardholder is identified, the Secure Controller sends the card identifier information to the PACS infrastructure controller/panel, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  The Secure Controller communicates to the Head End System to receive changes in the PIV Cardholder access permissions to obtain updated information.  
 
-*	PKI validation software (Core Component)
+*	PKI Validation Software (Core Component)
 
-The PKI validation software can be part of the Caching Status Proxy Server, PKI registration and management software and secure controllers.  It verifies that the PIV Card contents are valid and have been issued by a trusted authority and it verifies that PIV Card has not been cloned.   The PKI validation software is used as an interface between the PIV Card reader and the secure controller as part of the PACS Validation System.  The PKI validation software is an integrated part of the PACS.
+The PKI validation software can be part of the Caching Status Proxy Server, PKI registration and management software and secure controllers.  It verifies that the PIV Card contents are valid and have been issued by a trusted authority and it verifies that the PIV Card has not been cloned.   The PKI Validation software is used as an interface between the PIV Card reader and the secure controller as part of the PACS Validation System.  The PKI validation Software is an integrated part of the PACS.
 
-*	PKI/PIV Card registration and management software (Core Component)
+*	PKI/PIV Card Registration and Management Software (Core Component)
 
-Used to validate and capture demographic/PKI information from the PIV card and register the card with the PACS.  The data captured is stored in the PACS and used by the PACS PKI management software to manage the useers authorization requirements to a facility.  The PIV card information validated, captured and stored into the PACS can include, the PIV cardholder's name, card number, expiration date, photo, and certificates.  The PKI registration and management software is an integrated part of the PACS.
+Used to validate and capture demographic/PKI information from the PIV card and register the card with the PACS.  The data captured is stored in the PACS and used by the PACS PKI management software to manage the users authorization requirements to a facility.  The PIV card information validated, captured and stored into the PACS can include, the PIV cardholder's name, card number, expiration date, photo, and certificates.  The PKI registration and management software is an integrated part of the PACS.
 
 *	Server-based Certificate Validation Protocol (SCVP) Server (Separate Component)
 
-Used to determine whether the PIV Cardholder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy to be utilized.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
+Used to determine whether the PIV Cardholder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
 
 *	Online Certificate Status Protocol (OCSP) Responders (Separate Component)
 
@@ -180,7 +180,7 @@ The PACS Infrastructure is made up of many compatible and interoperable hardware
 
 *	Controller (field panels or door controllers) - (Core Component)
 
-The PACS Infrastructure Controller controls the door (i.e., door locking mechanism).  The PACS Infrastructure Controller receives card identifier information about the PIV Cardholder from Secure Controller, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  
+The PACS Infrastructure Controller controls the door (i.e., door locking mechanism).  The PACS Infrastructure Controller receives card identifier information about the PIV Cardholder from the Secure Controller, which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  
 
 * PACS Application and Head End System (Core Component)
 
