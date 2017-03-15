@@ -18,7 +18,7 @@ This guide is intended to provide a general overview of the Federal Information 
 1. [PACS Component Categories](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#pacs-component-categories)
 1. [PACS Components what they are and how they work](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#pacs-components-what-they-are-and-how-they-work)
 1. [FIPS 201 Compliance Testing for PACS](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#fips-201-compliance-testing-for-pacs)
-1. [Resources](#Resources)
+1. [Resources](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#resources)
 
 ## Overview "What is a PACS"
 A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
