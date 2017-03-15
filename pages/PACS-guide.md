@@ -10,15 +10,15 @@ permalink: /PACS-guide/
 ## Introduction
 This guide is intended to provide a general overview of the Federal Information Processing Standard (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the Federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for Federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
 
-1. PACS Overview 
-2. Why Implement the NIST PIV Standard?
-3. What is HSPD-12 and what was its intended goal?
-4. What are somre NIST PIV requirements for PACS?
-5. What are the benefits of PIV compliant PACS?
-6. PACS Component Categories
-7. PACS Components (what they are and how they work)
-8. FIPS 201 Compliance Testing for PACS
-9. Resources
+1. [PACS Overview](#Overview-"what-is-a-PACS") 
+1. [Why Implement the NIST PIV Standard?](#wht-implement-the-NIST-PIV-Standard?)
+1. [What is HSPD-12 and what was its intended goal?](#What-is-HSPD-12-and-what-was-its-intended-goal?)
+1. [What are some NIST PIV requirements for PACS?](#What-are-some-NIST-PIV-requirements-for-PACS?)
+1. [What are the benefits of PIV compliant PACS?](#what-are-the-benefits-of-PIV-compliant-PACS?)
+1. [PACS Component Categories](#PACS-Components-Categories)
+1. [PACS Components (what they are and how they work)](#PACS-Components-(what-they-are-and-how-they-work)
+1. [FIPS 201 Compliance Testing for PACS](#FIPS-201-Compliance-Testing-for-PACS)
+1. [Resources](#Resources)
 
 ## Overview "What is a PACS"
 A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
