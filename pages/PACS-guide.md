@@ -7,7 +7,7 @@ permalink: /PACS-guide/
 # What is a Physical Access Control System (PACS)
 
 ## Introduction
-This guide is intended to provide a general overview of Federal Information the Processing Standards (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
+This guide is intended to provide a general overview of Federal Information the Processing Standards (FIPS) 201 Personal Identity Verification (PIV) compliant PACS that are used within the Federal government.  It will provide information on the components that make up a PACS solution, how PACS components work together to provide physical access control for Federal agencies and where these approved PACS products can be found.  In addition, this guide will discuss the benefits of PIV compliant PACS and the General Services Administration (GSA) FIPS 201 Evaluation Program’s PACS testing and why it’s needed.
 
 ## Overview "What is a PACS"
 A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
@@ -16,15 +16,15 @@ Physical access control is a security method used to help prevent unauthorized a
 
 The most recognizable physical access control method and the one synonymous with security is the use of human security guards to protect important assets.
 
-As technology advanced and matured, electronic PACS have become a critical component in the federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
+As technology advanced and matured, electronic PACS have become a critical component in the Federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
-A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in federal facilities.  
+A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities.  
 
-PACS used for secure federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
+PACS used for secure Federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
-Online Certificate Status Protocol (OCSP) Responders are used to determine if a PKI certificate has been revoked. PACS systems access this information to help make access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. An OCSP Responder is part of the federal government’s existing PKI and is not a component that will need to be purchased with a PACS. 
+Online Certificate Status Protocol (OCSP) Responders are used to determine if a PKI certificate has been revoked. PACS systems access this information to help make access control decisions. If a smartcard holder certificates have been revoked, the smartcard holder will be denied access into the facility. An OCSP Responder is part of the Federal government’s existing PKI and is not a component that will need to be purchased with a PACS. 
 
-PACS used to make access control decisions within the federal government may consist of many components to include:
+PACS used to make access control decisions within the Federal government may consist of many components to include:
 
 * Smartcard Reader (used to read information about a person stored on the smartcard) 
 
@@ -38,7 +38,7 @@ PACS used to make access control decisions within the federal government may con
 
 There are other components that makes up a PACS that plays an important role with making physical access control decisions.  Those  components will be discussed in more detail later in this guide.
 
-{% include alert-info.html content="To further improve the PACS used in federal buildings and facilities, the federal government has mandated that PACS meet the National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) 201 standard for Personal Identity Verification (PIV)." %}
+{% include alert-info.html content="To further improve the PACS used in Federal buildings and facilities, the Federal government has mandated that PACS meet the National Institute of Standards and Technology (NIST) Federal Information Processing Standards (FIPS) 201 standard for Personal Identity Verification (PIV)." %}
 
 ## Why Implement the NIST PIV Standard?
 
@@ -60,7 +60,7 @@ HSPD-12 is a strategic initiative intended to enhance security, increase Governm
 
 * PIV PACS are required to access and validate the appropriate PIV certificate to meet the facilities security assurance level requirements.
 
-* The assurance level required for each federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A federal facillity may require:
+* The assurance level required for each Federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A Federal facillity may require:
 
   * Single Factor Authentication - Something you have (PIV Card) + visual check
   * Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
@@ -83,7 +83,7 @@ NIST FIPS 201 provided the opportunity to migrate building access systems from L
 
 * Strengthens physical security within the Federal Government
 
-* Capable of being implemented for federal facilities requiring high assurance personal identity verification
+* Capable of being implemented for Federal facilities requiring high assurance personal identity verification
 
 * Provides a stronger identification process than non-compliant PACS
 
@@ -93,7 +93,7 @@ NIST FIPS 201 provided the opportunity to migrate building access systems from L
 
 ## PACS Component Categories
 
-PACS are classified in two “GSA Approved topologies” which consist of the latest and most utilized configurations within the federal government.  These topologies are listed as 13.01 and 13.02.  This document will focus on topology 13.01 and its components which are listed under categories.  These categories of PACS are defined as part of a whole PACS solution that can be tested end-to-end by the GSA's FIPS 201 Evaluation Program.
+PACS are classified in two “GSA Approved topologies” which consist of the latest and most utilized configurations within the Federal government.  These topologies are listed as 13.01 and 13.02.  This document will focus on topology 13.01 and its components which are listed under categories.  These categories of PACS are defined as part of a whole PACS solution that can be tested end-to-end by the GSA's FIPS 201 Evaluation Program.
 
 **Topology 13.01 consist of 3 main categories:**
 
@@ -110,7 +110,7 @@ A PIV Reader (i.e., smartcard reader) is a device that provides the human interf
 *	Two Factor PIV Readers – Has a Pin Pad but no Biometric Reader
 * Three Factor PIV Readers – Has Pin Pad and Biometric Reader
 
-Example of a PIV Reader in operation: Federal employees and contractors will present their PIV Card to the PIV reader to obtain entry into a controlled federal facility.  The PIV Reader reads the identifying information stored on the PIV Card that is associated with the individual PIV Card-holder. It then communicates that information to the PACS Validation System.  The Validation System will validate the credentials of the individual stored on the PIV Card.  The information obtained from the PIV Card will determine if the individual will be granted physical access to the facility. A PIV reader may be a wholly-integrated unit, or it may be an assembly of components including:
+Example of a PIV Reader in operation: Federal employees and contractors will present their PIV Card to the PIV reader to obtain entry into a controlled Federal facility.  The PIV Reader reads the identifying information stored on the PIV Card that is associated with the individual PIV Cardholder. It then communicates that information to the PACS Validation System.  The Validation System will validate the credentials of the individual stored on the PIV Card.  The information obtained from the PIV Card will determine if the individual will be granted physical access to the facility. A PIV reader may be a wholly-integrated unit, or it may be an assembly of components including:
 
 * Contact Reader (Core Component)
 
@@ -126,19 +126,19 @@ Used in conjunction with the PIV Reader to provide two-factor authentication. Pe
 
 *	Fingerprint sensor
 
-Used with PIV Card Readers and the Pin Pad to provide 3 factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
+Used with PIV Card Readers and the Pin Pad to provide 3 factor authentication. The fingerprint sensor can be used to access biometric data stored on the PIV Card to provide physical access to a Federal facility. Off-Card Biometric Comparison requires a PIN to be utilized with your finger print Biometric.  The fingerprint sensor will also require a PIN Pad to allow the PIV Card PIN to be entered.  On Card Biometric Comparison (OCC) doesn’t require a PIN Pad but no OCC Biometric reader has been submitted to the GSA for approval.  
 
 *	Other biometric modalities 
 
-Iris comparison is the only other allowable biometric.  As of today, no iris readers have been GSA approved. An iris scanner/reader (when approved) can be utilized to access biometric data stored on the PIV Card to provide physical access to a federal facility. 
+Iris comparison is the only other allowable biometric.  As of today, no iris readers have been GSA approved. An iris scanner/reader (when approved) can be utilized to access biometric data stored on the PIV Card to provide physical access to a Federal facility. 
 
 * LCD Display
 
-Provide PACS visual notifications to PIV Card-holders.  Visual notifications can include error messages; proceed or stop messages or some other type of notification to alert or direct an individual. Intergrated into PACS.
+Provide PACS visual notifications to PIV Cardholders.  Visual notifications can include error messages; proceed or stop messages or some other type of notification to alert or direct an individual. Intergrated into PACS.
 
 * LED lights
 
-Similar to LCD displays in that they are used to provide a visual message to the PIV Card-holder. LED lights can be used to display a green arrow to inform an individual to proceed through a gate/turnstile once a PIV Card-holder credentials have been validated and the individual is authorized and granted access to the facility. Intergrated into PACS.
+Similar to LCD displays in that they are used to provide a visual message to the PIV Cardholder. LED lights can be used to display a green arrow to inform an individual to proceed through a gate/turnstile once a PIV Cardholder credentials have been validated and the individual is authorized and granted access to the facility. Intergrated into PACS.
 
 *	Audio announcers
 
@@ -157,7 +157,7 @@ Used to cache PIV-Cardholders data to optimize the performance of PACS.  It cont
 
 *	Secure Controllers (Core Component)
 
-The Secure Controller is located within a secure area.  It communicates with multiple PIV Card readers (for 1, 2 or 3 factor authentication), door actuators/PACS Infrastructure Controller (i.e., door controller), and the Head End System.  The Secure Controller receives information about the PIV Card-holder from the PIV Card reader.  Once the cardholder is identified, the Secure Controller sends the card identifier information to the PACS infrastructure controller/panel (located in a non-secure area) which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Card-holder access to a facility.  The Secure Controller communicates to the Head End System to receive changes in the PIV Card-holder access permissions to obtain updated information.  
+The Secure Controller is located within a secure area.  It communicates with multiple PIV Card readers (for 1, 2 or 3 factor authentication), door actuators/PACS Infrastructure Controller (i.e., door controller), and the Head End System.  The Secure Controller receives information about the PIV Cardholder from the PIV Card reader.  Once the cardholder is identified, the Secure Controller sends the card identifier information to the PACS infrastructure controller/panel (located in a non-secure area) which it uses to make access control decisions, such as to release the door locking mechanism to allow a PIV Cardholder access to a facility.  The Secure Controller communicates to the Head End System to receive changes in the PIV Cardholder access permissions to obtain updated information.  
 
 *	PKI validation software (Core Component)
 
@@ -173,7 +173,7 @@ Used to determine whether the PIV Cardholder’s digital identification (i.e., c
 
 *	Online Certificate Status Protocol (OCSP) Responders (Core component)
 
-Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and not revoked.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they normally already exist as part of your current Public Key Infrastructure.
+Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and not revoked.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled Federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they normally already exist as part of your current Public Key Infrastructure.
 
 ### **PACS Infrastructure**
 The PACS Infrastructure is made up of many compatible and interoperable hardware and software components to include:
@@ -184,21 +184,21 @@ The PACS Infrastructure Controller controls the door (i.e., door locking mechani
 
 * PACS Application and Head End System (Core Component)
 
-The Head End System is used to enroll an individual PIV Card-holder’s demographic information into the database, checks the PIV Card unique ID number that already exist for each individual requiring physical access, and assign access privileges and an expiration date for these privileges.  The Head End server is used to maintain this information and refreshes the Controllers with the latest changes.   
+The Head End System is used to enroll an individual PIV Cardholder’s demographic information into the database, checks the PIV Card unique ID number that already exist for each individual requiring physical access, and assign access privileges and an expiration date for these privileges.  The Head End server is used to maintain this information and refreshes the Controllers with the latest changes.   
  
 *	Database and Server (Core Component)
 
-The PACS Database Server, which is part of the Head End System, contains the names of the PIV Card-holders and their unique ID number and access authorization used to gain physical access to federal facilities.
+The PACS Database Server, which is part of the Head End System, contains the names of the PIV Cardholders and their unique ID number and access authorization used to gain physical access to Federal facilities.
 
 * Workstation (Core Component)
 
-Used with the Head End System for administration, and to register PIV Card-holder’s facility authorization into the PACS.  However, some systems use a separate PKI registration application to extract, validate and register the PIV card with the PACS.  Other systems combine the extraction and validation with their own enrollment workstation.
+Used with the Head End System for administration, and to register PIV Cardholder’s facility authorization into the PACS.  However, some systems use a separate PKI registration application to extract, validate and register the PIV card with the PACS.  Other systems combine the extraction and validation with their own enrollment workstation.
 
 ## FIPS 201 Compliance Testing for PACS
 
-The GSA's FIPS 201 Evaluation Program performs compliance testing to ensure commercial products such as PACS meet federal security standards.  These standards must be met before federal agencies can purchase and implement commercial PACS within their infrastructure.  The FIPS 201 Evaluation Program test and certify PACS using third-party accredited testing labs, GSA managed testing labs, and National Institute of Standards and Technology (NIST) labs. The certification of PACS products is granted by either NIST or the Director of the FIPS 201 Evaluation Program after reviewing all materials and any testing results provided by the labs or product vendors. Once a product is certified, the product vendor is granted a letter of certification and the product information, version, date of certification, and any special considerations is placed on the GSA managed [Approved Products List (APL)](https://www.idmanagement.gov/IDM/IDMFicamProductSearchPage).  
+The GSA's FIPS 201 Evaluation Program performs compliance testing to ensure commercial products such as PACS meet Federal security standards.  These standards must be met before Federal agencies can purchase and implement commercial PACS within their infrastructure.  The FIPS 201 Evaluation Program test and certify PACS using third-party accredited testing labs, GSA managed testing labs, and National Institute of Standards and Technology (NIST) labs. The certification of PACS products is granted by either NIST or the Director of the FIPS 201 Evaluation Program after reviewing all materials and any testing results provided by the labs or product vendors. Once a product is certified, the product vendor is granted a letter of certification and the product information, version, date of certification, and any special considerations is placed on the GSA managed [Approved Products List (APL)](https://www.idmanagement.gov/IDM/IDMFicamProductSearchPage).  
 
-Only PACS products listed on the APL are FIPS 201 PIV compliant and authorized for use within the federal government.  For information on how to buy approved PACS products that meet the FIPS 201 PIV standard visit [How to buy a PACS](//PACS-procurement.md)
+Only PACS products listed on the APL are FIPS 201 PIV compliant and authorized for use within the Federal government.  For information on how to buy approved PACS products that meet the FIPS 201 PIV standard visit [How to buy a PACS](//PACS-procurement.md)
 
 The GSA support team also work with industry to certify engineers who have passed exams for installing and configuring physical access control systems to government requirements. The training and certification is managed by the Smart Card Alliance (non-profit).
 
