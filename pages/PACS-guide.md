@@ -171,7 +171,7 @@ Used to validate and capture demographic/PKI information from the PIV card and r
 
 Used to determine whether the PIV Cardholder’s digital identification (i.e., certificate) that is stored on a PIV Card can be linked back to a trusted issuer. The SCVP Server is used for path validation and can be an extremely valuable component to a PACS. However, the use of an SCVP server is not currently mandated by policy to be utilized.  An SCVP server is normally never purchased with a PACS and usually is part of the existing Public Key Infrastructure.
 
-*	Online Certificate Status Protocol (OCSP) Responders (Core component)
+*	Online Certificate Status Protocol (OCSP) Responders (Separate Component)
 
 Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and not revoked.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled Federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they normally already exist as part of your current Public Key Infrastructure.
 
