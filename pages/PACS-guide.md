@@ -20,7 +20,7 @@ This guide is intended to provide a general overview of the Federal Information 
 1. [FIPS 201 Compliance Testing for PACS](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#fips-201-compliance-testing-for-pacs)
 1. [Resources](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#resources)
 
-## Overview "What is a PACS"
+## PACS Overview "What is a PACS"
 A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
 
 Physical access control is a security method used to help prevent unauthorized access to a building, room or protected area.  It helps to ensure that only individuals who are authorized have unescorted access to these protected areas. There are many ways to provide physical access control - from the utilization of a wall or fence, to the use of a traditional lock and key solution, as seen in cars and homes today.
