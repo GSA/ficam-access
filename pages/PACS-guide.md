@@ -12,7 +12,7 @@ This guide is intended to provide a general overview of the Federal Information 
 
 1. [PACS Overview "what is a PACS"](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#overview-what-is-a-pacs)
 1. [Why Implement the NIST PIV Standard?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#why-implement-the-nist-piv-standard)
-1. [What is HSPD-12 and what was its intended goal?](#What-is-HSPD-12-and-what-was-its-intended-goal?)
+1. [What is HSPD-12 and what was its intended goal?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-is-hspd-12-and-what-was-its-intended-goal)
 1. [What are some NIST PIV requirements for PACS?](#What-are-some-NIST-PIV-requirements-for-PACS?)
 1. [What are the benefits of PIV compliant PACS?](#what-are-the-benefits-of-PIV-compliant-PACS?)
 1. [PACS Component Categories](#PACS-Components-Categories)
