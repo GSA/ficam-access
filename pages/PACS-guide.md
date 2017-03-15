@@ -19,7 +19,6 @@ This guide is intended to provide a general overview of the Federal Information 
 7. PACS Components (what they are and how they work)
 8. FIPS 201 Compliance Testing for PACS
 9. Resources
-10. 
 
 ## Overview "What is a PACS"
 A PACS is an electronic system that controls the ability of people and or vehicles to enter a protected area, by providing authentication and authorization mechanisms at access control points.  More specifically, PACS are electronic devices (i.e., software, hardware and firmware) used in physical access control.
