@@ -14,7 +14,7 @@ This guide is intended to provide a general overview of the Federal Information 
 1. [Why Implement the NIST PIV Standard?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#why-implement-the-nist-piv-standard)
 1. [What is HSPD-12 and what was its intended goal?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-is-hspd-12-and-what-was-its-intended-goal)
 1. [What are some NIST PIV requirements for PACS?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-are-somre-nist-piv-requirements-for-pacs)
-1. [What are the benefits of PIV compliant PACS?](#what-are-the-benefits-of-PIV-compliant-PACS?)
+1. [What are the benefits of PIV compliant PACS?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-are-the-benefits-of-piv-compliant-pacs)
 1. [PACS Component Categories](#PACS-Components-Categories)
 1. [PACS Components what they are and how they work](#PACS-Components-what-they-are-and-how-they-work)
 1. [FIPS 201 Compliance Testing for PACS](#FIPS-201-Compliance-Testing-for-PACS)
@@ -59,7 +59,7 @@ The NIST FIPS 201 PIV standard contains the minimum requirements for a Federal P
 
 HSPD-12 is a strategic initiative intended to enhance security, increase Government efficiency, reduce identity fraud, and protect personal privacy. HSPD-12 was signed by President George Bush in 2004 due to security concerns over the wide variations in the quality and the security of the identification used within the Federal Government to gain access to secure Federal facilities.  The goal of HSPD-12 was to eliminate these variations by establishing a mandatory, Government-wide standard for secure and reliable forms of identification issued by the Federal Government to its employees and contractors.  The HSPD-12 standard that will be utilized by all Federal departments and agencies includes the vetting of individuals and the issuance of identification (e.g., Smartcards) to enhance security, reduce identity fraud, and to protect personal privacy.
 
-## What are somre NIST PIV requirements for PACS?
+## What are some NIST PIV requirements for PACS?
 
 * PACS must be designed and configured to read and process the appropriate electronic identification information associated with an individual that is stored on a PIV Card.
 
