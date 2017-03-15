@@ -15,7 +15,7 @@ This guide is intended to provide a general overview of the Federal Information 
 1. [What is HSPD-12 and what was its intended goal?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-is-hspd-12-and-what-was-its-intended-goal)
 1. [What are some NIST PIV requirements for PACS?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-are-somre-nist-piv-requirements-for-pacs)
 1. [What are the benefits of PIV compliant PACS?](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#what-are-the-benefits-of-piv-compliant-pacs)
-1. [PACS Component Categories](#PACS-Components-Categories)
+1. [PACS Component Categories](https://github.com/thiligh/ficam-access/blob/PACS-PLABOOK-FOLDER/pages/PACS-guide.md#pacs-component-categories)
 1. [PACS Components what they are and how they work](#PACS-Components-what-they-are-and-how-they-work)
 1. [FIPS 201 Compliance Testing for PACS](#FIPS-201-Compliance-Testing-for-PACS)
 1. [Resources](#Resources)
