@@ -163,7 +163,7 @@ Used in PACS to provide audible alerts. Intergrated into PACS.
 
 The PIV Reader products communicates via wires (e.g. RS-485, Ethernet) or by secure wireless, to the Validation System and other PACS devices.  Integrated into the PACS.
 
-### **PACS Validation System**
+### **PACS Validation System Category**
 The PACS Validation System provides the necessary functions to perform identification and authentication of the PIV Cardholder and also the PIV Card using a challenge/response process. A Validation System is made up of several compatible and interoperable components that may include:  
 
 *	**Caching status proxy server (Core Component)**
@@ -190,7 +190,7 @@ Used to determine whether the PIV Cardholder’s digital identification (i.e., c
 
 Used to check the status of a certificate stored on a PIV Card to ensure that the certificate is valid and not revoked.  A revoked certificate is like a driver’s license that has been suspended; it cannot be used as a valid credential for physical access to a controlled Federal facility.  The PIV cardholder will be denied access by the PACS.  OCSP Responders are required but they normally already exist as part of your current Public Key Infrastructure.
 
-### **PACS Infrastructure**
+### **PACS Infrastructure Category**
 The PACS Infrastructure is made up of many compatible and interoperable hardware and software components to include:
 
 *	**Controller (field panels or door controllers) - (Core Component)**
