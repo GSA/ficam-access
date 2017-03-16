@@ -33,7 +33,7 @@ As technology advanced and matured, PACS have become a critical component in the
 
 A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities. 
 
-![Alt Proximity_and_PACS](../img/Proximity_and_PACS.JPG)
+![Alt Proximity_and_PACS2](../img/Proximity_and_PACS2.JPG)
 
 PACS used for secure Federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
