@@ -31,7 +31,9 @@ The most recognizable physical access control method and the one synonymous with
 
 As technology advanced and matured, PACS have become a critical component in the Federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
-A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities.  
+A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities. 
+
+![Alt Proximity_Reader_And_PACS](../img/Proximity_Reader_And_PACS.JPG)
 
 PACS used for secure Federal buildings utilize Public Key Infrastructure (PKI) technology to help stregthen access control decisions.  PKI use public and private keys to facilitate the secure exchange of electronic information.  PKI is a process that binds public keys and identifying information (contained on certificates) to a person.  The binding is established through a process of registration and the issuance of certificates by a trusted source (i.e., Certificate Authority).  
 
