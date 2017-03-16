@@ -77,9 +77,9 @@ HSPD-12 is a strategic initiative intended to enhance security, increase Governm
 
 * The assurance level required for each Federal facility will determine which certificate stored on the PIV card will be needed for physical access into that facility.  A Federal facillity may require:
 
-  * Single Factor Authentication - Something you have (PIV Card) + visual check
-  * Two Factor Authentication - something you have  (PIV Card) + something you know (PIN)
-  * Three Factor Authentication - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
+  * **Single Factor Authentication** - Something you have (PIV Card) + visual check
+  * **Two Factor Authentication** - something you have  (PIV Card) + something you know (PIN)
+  * **Three Factor Authentication** - something you have (PIV Card) + something you know (PIN) + something you are (Biometric)
 
 Note: Possession of a valid PIV Card as evidence by visual inspection of the card, reading a signed identity cert from the card, or performing challenge/response authentication with the card, provides one-factor authentication.  See examples below:  
 
@@ -121,9 +121,9 @@ PACS are classified in two “GSA Approved topologies” which consist of the la
 ### **PACS PIV Reader Category**
 A PIV Reader (i.e., smartcard reader) is a device that provides the human interface, the PIV Card interface, and the communications to and from the PACS Validation System. PACS PIV Readers have 3 types:
 
-*	Single Factor PIV Readers – Do not allow Two Factor authentication (No PIN Pad)
-*	Two Factor PIV Readers – Has a Pin Pad but no Biometric Reader
-* Three Factor PIV Readers – Has Pin Pad and Biometric Reader
+*	**Single Factor PIV Readers** – Do not allow Two Factor authentication (No PIN Pad)
+*	**Two Factor PIV Readers** – Has a Pin Pad but no Biometric Reader
+* **Three Factor PIV Readers** – Has Pin Pad and Biometric Reader
 
 Example of a PIV Reader in operation: Federal employees and contractors will present their PIV Card to the PIV Reader to obtain entry into a controlled Federal facility.  The PIV Reader reads the identifying information stored on the PIV Card that is associated with the individual PIV Cardholder. It then communicates that information to the PACS Validation System.  The Validation System will validate the credentials of the individual stored on the PIV Card.  The information obtained from the PIV Card will determine if the individual will be granted physical access to the facility. A PIV Reader may be a wholly-integrated unit, or it may be an assembly of components including:
 
