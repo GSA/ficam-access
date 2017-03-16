@@ -27,8 +27,6 @@ Physical access control is a security method used to help prevent unauthorized a
 
 The most recognizable physical access control method and the one synonymous with security is the use of human security guards to protect important assets.
 
-![Alt Security_Desk_Guard](../img/Security_Desk_Guard.jpg). 
-
 As technology advanced and matured, PACS have become a critical component in the Federal government’s quest to provide better physical access control.  PACS are a reliable way to provide an additional layer of security to enhance traditional physical access control methods (e.g., security guards, fences etc.), and in some instances, replace traditional methods entirely. PACS can be used to protect the outer perimeter such as entry and exit points to a building or they can be used for interior access control to a room.  
 
 A PACS can be a proximity reader that reads the information off of a proximity card to electronically unlock a door (replacing the traditional lock and Key solution with an electronic version) or a PACS can be a very complex system, comprised of many components used to make physical access control decisions such as the PACS used in Federal facilities.  
