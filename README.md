@@ -1,8 +1,8 @@
 Update - February 6, 2023
 
 This material was incorproated into the FICAM Playbooks areas outlined below.
-1) [Single Sign-On Playbook](https://playbooks.idmanagement.gov/playbooks/sso/){:target="_blank"}{:rel="noopener noreferrer"}
-2) [Access Management Service of the FICAM Architecture](https://playbooks.idmanagement.gov/arch/services/#access-management){:target="_blank"}{:rel="noopener noreferrer"}
+1. <a href="https://playbooks.idmanagement.gov/playbooks/sso/" target="_blank" rel="noopener noreferrer">FICAM Enterprise Single Sign-On Playbook</a>
+2. <a href="https://playbooks.idmanagement.gov/arch/services/#access-management" target="_blank" rel="noopener noreferrer">Access Management Services of the FICAM Architecture</a>
 
 This site is now a public archive.
 
