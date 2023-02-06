@@ -1,7 +1,17 @@
+Update - February 6, 2023
+
+This material was incorproated into the FICAM Playbooks areas outlined below.
+1) [Single Sign-On Playbook](https://playbooks.idmanagement.gov/playbooks/sso/){:target="_blank"}{:rel="noopener noreferrer"}
+2) [Access Management Service of the FICAM Architecture](https://playbooks.idmanagement.gov/arch/services/#access-management){:target="_blank"}{:rel="noopener noreferrer"}
+
+This site is now a public archive.
+
+---
+
 This work is in early Alpha stage and is led by the GSA FICAM Program in coordination with the ICAM Subcommittee of the Federal CIO Council.
 
 # FICAM Guides
-This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Manage Access Control Playbook**. The content is supporting the creation and future versions of identity management guidance, previously found in the <a href="https://www.idmanagement.gov/IDM/servlet/fileField?entityId=ka0t0000000TNNBAA4&field=File__Body__s" target="_blank"> FICAM Roadmap and Implementation Guidance v2.0, Section 9 </a>.
+This repository is for the collaborative development of the Federal Identity, Credential, and Access Management **Manage Access Control Playbook**. The content is supporting the creation and future versions of identity management guidance, previously found in the <a href="https://playbooks.idmanagement.gov/docs/roadmap-ficam.pdf" target="_blank"> FICAM Roadmap and Implementation Guidance v2.0, Section 9 </a>.
 
 Additional repositories are under development for contributors to share ICAM implementation guides, code, reference implementations, and solutions.
 
